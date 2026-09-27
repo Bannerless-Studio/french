@@ -8,11 +8,12 @@ The Read tab adds 60 short reading passages with comprehension questions
 
 **Live:** https://bannerless-studio.github.io/french/
 
-This repo holds the French data pack and the French data files its build
-reads, plus [`vocab-engine`](https://github.com/Bannerless-Studio/vocab-engine) as a
-git submodule at `engine/`. The engine holds the shared UI and drill logic
-and the shared pack builder, `engine/tools/packbuilder`. The builder's
-French rules live in `engine/tools/packbuilder/langs/fr.py`.
+Open the link, pick a level (or take the placement test), and start a Today
+session: short rounds of flashcard-style review mixed with new words, plus a
+Read tab with short passages and comprehension questions, and typing practice
+for spelling. Progress (what you've seen, what's due for review) is saved in
+your browser only, and can be exported/imported as a file to move between
+devices. The site works offline once loaded (it registers a service worker).
 
 **Scope:** this app is a vocabulary base for B1; the DELF B1 also needs
 grammar, writing and speaking practice, which this app does not teach.
@@ -31,185 +32,52 @@ lemma. Word ids are frozen in `tools/id_map_v1.json`. Known residuals are
 in `TODO.md`; per-round notes are in `tools/REPORT.md`.
 
 **Content policy:** sentences on sexual content, threats, violence, death
-wishes or weapons (a shared English list plus French terms) are kept out
-of A1/A2. Sentences about rape or sexual/child abuse are removed at every
-level, and the check fails on a match. A shared vulgar/sexual word list
-also scans glosses: a matching sense never leads an A1/A2 gloss
-(`sensitive_gloss_re`), and a word with no clean sense left moves to B1
-(`lower_level_gloss_re`) — tuer, mourir, mort, meurtre, arme, sexe and
-sexuel are placed at B1 this way, and the shared word ceiling (engine
-ff88f44, 2026-09-25) adds sang and drogue. Sentences about suicide or
-self-harm are removed at every level (3 removed); le suicide keeps one neutral
-example written for the pack (`tools/generated_examples.tsv`, "src": "gen"); the check fails on any match that
-remains at A1/A2.
+wishes or weapons are kept out of A1/A2. A word with no clean sense left at
+that level moves to B1 entirely (tuer, mourir, mort, meurtre, arme, sexe,
+sexuel, sang, drogue). Sentences about rape, sexual/child abuse, suicide or
+self-harm are removed at every level. See `TODO.md` for the exact rule
+history and counts.
 
 ## Reading passages (Read tab)
 
-`pack/passages.json` holds 60 short reading texts, 20 each at A1, A2 and B1,
-with comprehension questions each. The format is in the engine's
-`docs/PACK_SCHEMA.md`. The texts were written for this pack (`"src": "gen"`)
-and their source is `tools/passages_src.json`. Rebuild from that source with:
-
-```
-PYTHONPATH=engine/tools python3 -m packbuilder passages .    # --check: report only
-python3 engine/tools/jsonify_pack.py pack                    # passages go into sentences.js
-```
-
-The builder links word ids the same way it does for the example sentences.
-It enforces in-pack coverage of at least 95% at A1 and A2, and at least 93%
-at B1. It also enforces a level budget: an A1 passage may use at most 3 A2
-words (and no B1 words) and an A2 passage at most 3 B1 words. Per-passage
-numbers and the QA notes are in `tools/REPORT_passages.md`.
-
-A level's 20 passages unlock once the learner has learned 70% of that
-level's words. Tapping any word in a passage shows its gloss, including
-inflected forms, via per-sentence token spans linked to word ids.
-Comprehension questions feed missed words back into the review queue as
-weak words.
-
-The passages and questions are machine-written by Claude, checked by an
-automated QA pass; they have not had a native-speaker review.
+60 short reading texts, 20 each at A1, A2 and B1, with comprehension
+questions each. A level's 20 passages unlock once you've learned 70% of
+that level's words. Tapping any word in a passage shows its gloss, including
+inflected forms. Comprehension questions feed missed words back into the
+review queue as weak words. The passages and questions are machine-written,
+checked by an automated QA pass rather than a native speaker.
 
 A passage's spaced re-read on Today (after 7 days) becomes a listening pass
 when audio is available: the text stays hidden behind numbered play rows,
 and about half the questions are audio-only.
 
-## Layout
+Typing practice stays accent-lenient (`ou` = `où`), but a fold-only match is
+rejected when it would spell another pack word: la/là, sur/sûr, où/ou,
+côté/côte, marché/marche, élève/élevé and âge/âgé are each distinguished, in
+both directions.
+
+## What's in this repo
+
+This repo holds the French data pack (`pack/`) and the data files its build
+reads (`tools/`), plus [`vocab-engine`](https://github.com/Bannerless-Studio/vocab-engine)
+as a git submodule at `engine/`, which holds the shared UI, drill logic and
+pack builder used by every language in this trainer. See `tools/README.md`
+for a file-by-file breakdown of `tools/`, and `CLAUDE.md` for the full
+architecture and build commands.
+
+## Rebuild and publish (maintainers)
 
 ```
-pack/
-  pack.json         trainer config (levels, placement test, function words, typing rules)
-  words.json        2000 word entries
-  sentences.json    example sentences, each tagged with the word ids it covers
-  attribution.json  per-source licence + contributor attribution
-  pack.js words.js sentences.js   generated by engine/tools/jsonify_pack.py (never hand-edited)
-engine/             git submodule -> vocab-engine (UI, drill logic, build/validate tools,
-                    tools/packbuilder = the shared pack builder, langs/fr.py = French rules)
-tools/
-  build_pack.py        shim: runs `python3 -m packbuilder build --lang fr --repo .` from engine/tools
-  gloss_overrides.json hand gloss fixes for high-frequency words
-  forced_a1.txt        A1 core list, forced into A1 (the closed sets are in langs/fr.py)
-  generated_examples.tsv  hand-reviewed written examples (example only; exempt from the drop-everywhere filter)
-  h_aspire.txt         words with an aspirated h (le héros, la honte), from Wiktionary's
-                       "French terms with aspirated h" category plus halte, hors
-  requirements.txt     engine/tools/packbuilder/requirements.txt + the French spaCy model
-  REPORT.md            generated coverage report from the last build (manual section kept)
-build.sh            builds index.html (the self-contained trainer) from pack/ + engine/
-check.sh            packbuilder check + engine validator + stale-build guard, all in one
-index.html          built trainer, served by GitHub Pages at the repo root
-```
-
-## Rebuilding
-
-```
-git clone --recurse-submodules <this repo>
-# or, if already cloned: git submodule update --init
-
-cd french
-python3 -m venv .venv
-source .venv/bin/activate
+git clone --recurse-submodules <this repo>   # or: git submodule update --init
+cd french && python3 -m venv .venv && source .venv/bin/activate
 pip install -r tools/requirements.txt
-
-python3 tools/build_pack.py          # rebuild pack/{pack,words,sentences,attribution}.json + tools/REPORT.md
-python3 engine/tools/jsonify_pack.py pack   # regenerate pack/*.js from the .json
-./build.sh                           # build index.html
-./check.sh                           # pack checks + engine validation + stale-build guard
+python3 tools/build_pack.py && python3 engine/tools/jsonify_pack.py pack
+./build.sh && ./check.sh
 ```
 
-Sources are downloaded once into `.cache/` (gitignored) and reused. The
-build is deterministic, so re-running from cache reproduces byte-identical
-`pack/*.json`. Tagging the ~377k Tatoeba sentences with the large spaCy
-model takes 6-9 minutes the first time and is cached; later runs take about
-8 minutes, most of it the corpus passes.
-`tools/build_pack.py --stage {corpus,tag,lex,freq,words,all}` runs up to one
-stage. QA helpers run from this repo with
-`PYTHONPATH=engine/tools python3 -m packbuilder {check,scan,sample} --lang fr --repo .`.
-Set `PACKBUILDER_PATH=../vocab-engine/tools` to build against a vocab-engine
-checkout other than the submodule.
-
-## How words, senses and links are chosen
-
-The shared pipeline is described in `engine/tools/packbuilder/README.md`:
-corpus-tagged POS and lemma, frequency split over in-context readings, sense
-ranking by overlap with the English translations, second entries for a
-second POS with at least 20% of the tokens and a distinct sense. The French
-module adds these rules:
-
-1. **Tokenizer.** spaCy's French tokenizer splits only some hyphen-attached
-   pronouns. Every clitic after a hyphen is split off (peux-tu, lève-toi,
-   dis-le-moi, allez-y), the euphonic -t- is skipped, and a few compounds
-   stay whole (quelqu'un, week-end, là-bas).
-2. **Elision.** Elided forms are read as their full word: j' je, l' le
-   (article or pronoun by context), qu' que, s' se or si (s'il), c' ce,
-   n' ne, d' de, jusqu' jusque. Colloquial t'as / t'es read as tu. The
-   frequency lists' elision fragments (l', c', wordfreq's bare l, qu) are
-   folded onto those words, so no fragment becomes a lemma.
-3. **Contractions.** au, aux link to à; du, des link to de.
-4. **Articles.** Nouns are shown with le, la or l'. Before a vowel or mute h
-   the article is l' and the gloss carries the gender, "l'homme = man (m)".
-   Aspirated h keeps le/la (le héros, la honte). Common-gender nouns show
-   le/la (le/la journaliste; l'élève (m/f)). Pluralia tantum show les
-   (les gens, les vacances). Days and months are shown bare. `alt[0]` is
-   always the bare lemma.
-5. **Reflexive verbs.** A verb is shown as "se lever" when at least 60% of
-   its linked sentences carry a reflexive clitic in the right person (je me,
-   nous nous, s'est, lève-toi); otherwise it is shown as the base verb with a
-   combined gloss ("occuper = to take up; s'occuper: to be busy").
-6. **Multiword expressions** are one word each: parce que, quelque chose,
-   tout le monde, d'abord, d'accord, bien sûr, au moins, à peine, en train de,
-   il y a (any tense, il n'y a), est-ce que, s'il vous/te plaît (also
-   "plait"), excusez-moi, petit déjeuner, lors de, à travers and a few more
-   (see `MWES` in `langs/fr.py`). Their parts link nothing else. In a short
-   list of idioms (bon marché, en général, à part, en conserve, au fait) the
-   noun links nothing.
-7. **Tagger repairs** by context: a noun reading after a subject pronoun is
-   the verb (tu restes), a bare noun after être with an adjective reading is
-   the adjective (c'est drôle), personne in a negative clause is "nobody",
-   a verb reading after a possessive is the noun (ma montre), an imperative
-   at the start of a sentence (Écoute, ...) is the verb.
-8. **Passé simple** sentences are kept to B1. A sentence is marked when the
-   tagger says Tense=Past on a finite indicative verb, or when a word's only
-   Wiktionary readings are passé simple or imperfect subjunctive forms
-   (jouâmes, alla, fût). Forms shared with the present (finit, dit) are not
-   marked.
-9. **Feminine forms** fold into the masculine: amie into ami (Wiktionary's
-   `m=` head link), feminine adjective forms into the adjective. Nouns with
-   a sense of their own stay separate (la droite, la nouvelle).
-10. **Excluded:** proper nouns, fillers and names read as words (Ben, Al),
-    unassimilated English loans (party, job, fan, star, cool, sexy, gay) and
-    profanity. Sentences with profanity are skipped.
-11. **Paradigms.** Determiners have one entry per paradigm, shown as the
-    masculine singular with the other forms as alternatives: ce (cet, cette,
-    ces), mon (ma, mes), quel (quelle, quels, quelles), aucun (aucune). The
-    object pronoun le lists la, les. Always-pronominal verbs are shown with
-    se (se taire, se souvenir).
-12. **Lemma artefacts.** A participle whose verb is barely used is the
-    adjective (désolé, not désoler; enceinte, not enceint); bel/nouvel/vieil
-    are beau/nouveau/vieux; voilà/voici are interjections.
-13. **Hyphenated compounds** (week-end, grand-mère, après-midi, là-bas) are
-    ranked by their subtitle frequency. wordfreq only has their parts, and
-    its phrase frequency ("bien être") is used only up to the subtitle value.
-14. **Gender homographs** show the corpus-majority gender (le tour, le poste)
-    and name the other gender's sense in the gloss.
-15. **Example sentences:** at least one example of each word shows the bare
-    lemma form (vouloir, l'an) when the corpus has one (shared builder flag
-    `example_shows_word`). Sensitive topics are kept to B1: sexual content,
-    drugs, suicide, threats, violence and death (tuer, mourir in every form,
-    meurtre, arme, frapper, coups, sang, crever, tirer sur, "t'es mort", plus
-    the shared English list: kill, murder, dead, die, shoot, weapon, gun).
-    Rape and sexual abuse sentences are removed at every level
-    (`drop_all_levels`). Passé simple sentences are kept to B1, including
-    forms shared with participles right after a subject (je dus, il fut).
-    Known agreement errors ("Quelle sont") and English idioms with no literal
-    link ("if a day") are skipped.
-16. **Glosses and sensitivity.** A vulgar sense never leads a gloss
-    (`sensitive_gloss_re`). An A1/A2 gloss matching the violence/sexual list
-    keeps only its clean senses; a word with none moves to B1 (tuer, mourir,
-    mort, meurtre, arme, sexe, sexuel), and the pack check fails on any that
-    remain (`lower_level_gloss_re`).
-17. **Reflexive senses.** A plain verb whose corpus uses often carry a
-    reflexive clitic shows the se-sense too: "appeler = to call; s'appeler:
-    to be called", "trouver = to find; se trouver: to be (located)".
+See `tools/README.md` for what each rebuild step reads/writes and how words,
+senses and sentence links are chosen, and `CLAUDE.md` for the pinned
+commands, submodule-update flow and forbidden patterns.
 
 ## Sources and licences
 
@@ -244,20 +112,3 @@ log `wordfreq`-rank. Levels:
 
 This is a reproducible frequency proxy for CEFR level, not an official CEFR
 classification.
-
-## Known deviations from the brief
-
-- The tagger is `fr_core_news_lg`, not `fr_core_news_sm`. On a 3,000-sentence
-  Tatoeba sample the small model tagged 90.5% of subject pronouns as PRON and
-  88.8% of the words after them as verbs ("tu" as ADP, "fais"/"viens" as
-  nouns). The large model scored 99.7% and 96.9%. The licence (LGPL-LR) and
-  the speed are the same.
-- au/aux/du/des link to the preposition only (à, de), not also to the
-  article le.
-- Days and months are shown without an article, as in the Italian pack.
-- Sentences: 4-14 tokens (B1 at least 5); an A1 word with fewer than two
-  such sentences may take a 3-token one (shared builder rule).
-- **Typing** stays accent-lenient (`ou` = `où`), but a fold-only match is
-  now rejected when it spells another pack word instead: the pairs
-  la/là, sur/sûr, où/ou, côté/côte, marché/marche, élève/élevé and âge/âgé
-  are each distinguished, in both directions.
