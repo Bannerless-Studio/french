@@ -94,3 +94,6 @@ in `README.md` and in `engine/tools/packbuilder/langs/fr.py`.
 - Drop-everywhere (suicide/self-harm): s2071, s2568, s3161 removed; le suicide
   (w1843) refilled from `tools/generated_examples.tsv`. Sentences 3,277 ->
   3,277 (10 removed, 10 added, by text). passages.json unchanged.
+
+## Republish 09e90bc (2026-09-29)
+- Republish 09e90bc: sentence spans (20222/20239 linked words placed); inflected forms now cloze targets
