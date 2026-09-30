@@ -97,3 +97,4 @@ in `README.md` and in `engine/tools/packbuilder/langs/fr.py`.
 
 ## Republish 09e90bc (2026-09-29)
 - Republish 09e90bc: sentence spans (20222/20239 linked words placed); inflected forms now cloze targets
+- Republish ef44c6e: no word moves; deleted 10 gloss override keys that were never applied (listed unused since the 2026-09-29 build): multiword en fait|adv, en même temps|adv, entre-temps|adv, tout à l'heure|adv (not shipped), and bien|adj, comme|adv, comme|conj, que|pron, tout|det, tout|pron (those lemmas ship as bien|adv, comme|prep, que|conj, tout|adj, tout|adv); pack byte-identical; set-counter and no-voice planner fixes
