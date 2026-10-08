@@ -105,3 +105,4 @@ in `README.md` and in `engine/tools/packbuilder/langs/fr.py`.
 - ETA: goal gains [0.004891, 0.003175, 0.002673], known 7.392; every goal and the gate within 30% on 3 of 3 seeds.
 - Storage: new fields day/sn/t/u/f/p/pm/pv/pause/read.done s,ls/today.tw on first use; boot writes nothing; previous build ef44c6e/aa00571 carries them (migration [port] 9/9).
 - French has no `pron`, so Progress Settings has no "Show reading" chip (the pack-gated wording never appears).
+- Live proof 2026-10-08 (KEEP): seed = 12 sessions played on 00e81a9. On live (md5s above) the seed was byte-equal after boot, reload and on Progress with no backup keys. One Today session added sn/day/pm. That record booted on the previous build byte-equal after boot and reload, no backup keys, and a session ran there. Back on live it was byte-equal after boot and reload. 0 console errors, 0 failed requests.
