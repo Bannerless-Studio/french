@@ -2,6 +2,7 @@
 # Runs every check that must pass before shipping the French pack/site:
 #   1. packbuilder check         - pack-level schema/coverage/article checks
 #      (engine/tools/packbuilder/qa/check.py with the French spec)
+#   1b. packbuilder enrich --check - ft tiers, port flag block and eta match the pack
 #   2. engine/tools/validate_pack.py - engine's schema, referential-integrity,
 #      and generated-.js-in-sync checks
 #   3. stale-build guard (engine/tools/check_site.sh) - rebuilds index.html and sw.js
@@ -14,6 +15,10 @@ cd "$(dirname "$0")"
 
 echo "== packbuilder check =="
 PYTHONPATH="${PACKBUILDER_PATH:-engine/tools}" python3 -m packbuilder check --lang fr --repo .
+
+echo
+echo "== packbuilder enrich --check =="
+PYTHONPATH="${PACKBUILDER_PATH:-engine/tools}" python3 -m packbuilder enrich --lang fr --repo . --check
 
 echo
 echo "== engine/tools/validate_pack.py =="

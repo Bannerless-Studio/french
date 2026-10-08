@@ -98,3 +98,10 @@ in `README.md` and in `engine/tools/packbuilder/langs/fr.py`.
 ## Republish 09e90bc (2026-09-29)
 - Republish 09e90bc: sentence spans (20222/20239 linked words placed); inflected forms now cloze targets
 - Republish ef44c6e: no word moves; deleted 10 gloss override keys that were never applied (listed unused since the 2026-09-29 build): multiword en fait|adv, en même temps|adv, entre-temps|adv, tout à l'heure|adv (not shipped), and bien|adj, comme|adv, comme|conj, que|pron, tout|det, tout|pron (those lemmas ship as bien|adv, comme|prep, que|conj, tout|adj, tout|adv); pack byte-identical; set-counter and no-voice planner fixes
+
+## Republish on engine 439df3d (2026-10-08, port wave 1)
+- Rollback hash: 00e81a9 (engine ef44c6e). Previous live md5: index.html c65b587d4006aed359554a098625863f, sw.js 367bb8251bb3abe1440483b97203e1c9. New: index.html 13e298d62224af9bee1ca9b74f05075f, sw.js 0d45f47a570e3cb95ae75331bb5d6a58.
+- Port = `packbuilder enrich --lang fr --repo .` + `tools/eta.json` (calibrated: `eta_checks.js --pack pack --calibrate --sessions 600`, 85%, seeds 5/6/7). Words gained `ft` only; pack.json gained the generic flag set + `eta`; no text, id or order change. Tiers [ambient core peripheral]: A1 [100, 440, 60], A2 [0, 525, 175], B1 [0, 420, 280]. `check.sh` runs `enrich --check`.
+- ETA: goal gains [0.004891, 0.003175, 0.002673], known 7.392; every goal and the gate within 30% on 3 of 3 seeds.
+- Storage: new fields day/sn/t/u/f/p/pm/pv/pause/read.done s,ls/today.tw on first use; boot writes nothing; previous build ef44c6e/aa00571 carries them (migration [port] 9/9).
+- French has no `pron`, so Progress Settings has no "Show reading" chip (the pack-gated wording never appears).
