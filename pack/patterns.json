@@ -1,0 +1,4179 @@
+[
+ {
+  "id": "p01",
+  "lv": "A1",
+  "label": "être / avoir",
+  "en": "to be / to have (present)",
+  "note": [
+   "Être: what someone is. Avoir: what they have.",
+   "Il est grand. Il a un chat. Elle a dix ans."
+  ],
+  "near": [
+   "p18"
+  ],
+  "keys": [
+   "w0003",
+   "w0005"
+  ],
+  "sentences": [
+   {
+    "id": "p01.1",
+    "src": "s0011",
+    "t": "Ils sont fous ces Madrilènes.",
+    "en": "People from Madrid are weird.",
+    "lv": "A1",
+    "words": [
+     "w0049",
+     "w0003",
+     "w0394",
+     "w0020"
+    ],
+    "marks": [
+     [
+      4,
+      8
+     ]
+    ]
+   },
+   {
+    "id": "p01.2",
+    "src": "s0093",
+    "t": "J'ai peur des chiens.",
+    "en": "I am afraid of dogs.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0005",
+     "w0270",
+     "w0001",
+     "w0472"
+    ],
+    "marks": [
+     [
+      2,
+      4
+     ]
+    ]
+   },
+   {
+    "id": "p01.3",
+    "src": "s0129",
+    "t": "Je suis fatigué du travail.",
+    "en": "I am tired of the work.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0003",
+     "w0563",
+     "w0001",
+     "w0152"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   },
+   {
+    "id": "p01.4",
+    "src": "s0151",
+    "t": "Ma chambre a deux fenêtres.",
+    "en": "My room has two windows.",
+    "lv": "A1",
+    "words": [
+     "w0030",
+     "w0329",
+     "w0005",
+     "w0066",
+     "w0519"
+    ],
+    "marks": [
+     [
+      11,
+      12
+     ]
+    ]
+   },
+   {
+    "id": "p01.5",
+    "src": "s1029",
+    "t": "Il est étudiant en droit.",
+    "en": "He is a law student.",
+    "lv": "A1",
+    "words": [
+     "w0014",
+     "w0003",
+     "w0013",
+     "w0217"
+    ],
+    "marks": [
+     [
+      3,
+      6
+     ]
+    ]
+   },
+   {
+    "id": "p01.6",
+    "src": "s1053",
+    "t": "Vous êtes des jeunes garçons.",
+    "en": "You are young boys.",
+    "lv": "A1",
+    "words": [
+     "w0018",
+     "w0003",
+     "w0001",
+     "w0230",
+     "w0476"
+    ],
+    "marks": [
+     [
+      5,
+      9
+     ]
+    ]
+   },
+   {
+    "id": "p01.7",
+    "src": "s0511",
+    "t": "Nous avons assez d'eau.",
+    "en": "We have water enough.",
+    "lv": "A1",
+    "words": [
+     "w0039",
+     "w0005",
+     "w0211",
+     "w0001",
+     "w0249"
+    ],
+    "marks": [
+     [
+      5,
+      10
+     ]
+    ]
+   },
+   {
+    "id": "p01.8",
+    "src": "s0838",
+    "t": "Nous sommes contre la guerre.",
+    "en": "We are against war.",
+    "lv": "A1",
+    "words": [
+     "w0039",
+     "w0003",
+     "w0144",
+     "w0002",
+     "w0299"
+    ],
+    "marks": [
+     [
+      5,
+      11
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p02",
+  "lv": "A1",
+  "label": "aller + infinitive",
+  "en": "to be going to do something",
+  "note": [
+   "Going to do something soon.",
+   "aller (vais, va, allons) + infinitive: Je vais manger."
+  ],
+  "near": [
+   "p05",
+   "p06",
+   "p07",
+   "p08",
+   "p17",
+   "p19"
+  ],
+  "keys": [
+   "w0027"
+  ],
+  "sentences": [
+   {
+    "id": "p02.1",
+    "src": "s0112",
+    "t": "Je vais avoir quatorze ans.",
+    "en": "I am going to be fourteen.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0027",
+     "w0005",
+     "w0585",
+     "w0090"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   },
+   {
+    "id": "p02.2",
+    "src": "s1806",
+    "t": "Nous allons commencer sous peu.",
+    "en": "We'll begin shortly.",
+    "lv": "A1",
+    "words": [
+     "w0039",
+     "w0027",
+     "w0167",
+     "w0151",
+     "w0228"
+    ],
+    "marks": [
+     [
+      5,
+      11
+     ]
+    ]
+   },
+   {
+    "id": "p02.3",
+    "src": "s2441",
+    "t": "Vous allez adorer ce livre.",
+    "en": "You're going to love this book.",
+    "lv": "A1",
+    "words": [
+     "w0018",
+     "w0027",
+     "w0462",
+     "w0020",
+     "w0312"
+    ],
+    "marks": [
+     [
+      5,
+      10
+     ]
+    ]
+   },
+   {
+    "id": "p02.4",
+    "src": "s2447",
+    "t": "Cette maison va exister.",
+    "en": "This house will exist.",
+    "lv": "A1",
+    "words": [
+     "w0020",
+     "w0159",
+     "w0027",
+     "w0417"
+    ],
+    "marks": [
+     [
+      13,
+      15
+     ]
+    ]
+   },
+   {
+    "id": "p02.5",
+    "src": "s2188",
+    "t": "Je vais appeler le chef.",
+    "en": "I'll call the chef.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0027",
+     "w0133",
+     "w0002",
+     "w0301"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   },
+   {
+    "id": "p02.6",
+    "src": "s3238",
+    "t": "Je vais essayer de créer ça.",
+    "en": "I'll try to create that.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0027",
+     "w0178",
+     "w0001",
+     "w0399",
+     "w0022"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   },
+   {
+    "id": "p02.7",
+    "src": "s1943",
+    "t": "Je vais aller le chercher.",
+    "en": "I'll get it.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0027",
+     "w0002",
+     "w0176"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p03",
+  "lv": "A1",
+  "label": "ne … pas",
+  "en": "not (ne … pas)",
+  "note": [
+   "Not: the verb sits between ne and pas.",
+   "Je ne sais pas. Il ne vient pas."
+  ],
+  "near": [
+   "p20",
+   "p16",
+   "p21",
+   "p22"
+  ],
+  "keys": [
+   "w0012",
+   "w0010"
+  ],
+  "sentences": [
+   {
+    "id": "p03.1",
+    "src": "s1725",
+    "t": "Je ne suis pas triste.",
+    "en": "I do not feel sad.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0012",
+     "w0003",
+     "w0010",
+     "w0510"
+    ],
+    "marks": [
+     [
+      3,
+      5
+     ],
+     [
+      11,
+      14
+     ]
+    ]
+   },
+   {
+    "id": "p03.2",
+    "src": "s2394",
+    "t": "Je ne suis pas fou.",
+    "en": "I'm not crazy.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0012",
+     "w0003",
+     "w0010",
+     "w0394"
+    ],
+    "marks": [
+     [
+      3,
+      5
+     ],
+     [
+      11,
+      14
+     ]
+    ]
+   },
+   {
+    "id": "p03.3",
+    "src": "s2681",
+    "t": "Je ne suis pas vieux.",
+    "en": "I'm not old.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0012",
+     "w0003",
+     "w0010",
+     "w0276"
+    ],
+    "marks": [
+     [
+      3,
+      5
+     ],
+     [
+      11,
+      14
+     ]
+    ]
+   },
+   {
+    "id": "p03.4",
+    "src": "s2793",
+    "t": "Je ne peux pas manger.",
+    "en": "I can't eat.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0012",
+     "w0028",
+     "w0010",
+     "w0282"
+    ],
+    "marks": [
+     [
+      3,
+      5
+     ],
+     [
+      11,
+      14
+     ]
+    ]
+   },
+   {
+    "id": "p03.5",
+    "src": "s2963",
+    "t": "Je ne veux pas quitter Boston.",
+    "en": "I don't want to leave Boston.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0012",
+     "w0041",
+     "w0010",
+     "w0352"
+    ],
+    "marks": [
+     [
+      3,
+      5
+     ],
+     [
+      11,
+      14
+     ]
+    ]
+   },
+   {
+    "id": "p03.6",
+    "src": "s1495",
+    "t": "Tu ne peux pas perdre.",
+    "en": "You cannot lose.",
+    "lv": "A1",
+    "words": [
+     "w0017",
+     "w0012",
+     "w0028",
+     "w0010",
+     "w0165"
+    ],
+    "marks": [
+     [
+      3,
+      5
+     ],
+     [
+      11,
+      14
+     ]
+    ]
+   },
+   {
+    "id": "p03.7",
+    "src": "s2377",
+    "t": "Je ne connais pas si bien Boston.",
+    "en": "I don't know Boston that well.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0012",
+     "w0122",
+     "w0010",
+     "w0038",
+     "w0043"
+    ],
+    "marks": [
+     [
+      3,
+      5
+     ],
+     [
+      14,
+      17
+     ]
+    ]
+   },
+   {
+    "id": "p03.8",
+    "src": "s2491",
+    "t": "Il ne fait pas toujours froid à Boston.",
+    "en": "It's not always cold in Boston.",
+    "lv": "A1",
+    "words": [
+     "w0014",
+     "w0012",
+     "w0016",
+     "w0010",
+     "w0089",
+     "w0501",
+     "w0007"
+    ],
+    "marks": [
+     [
+      3,
+      5
+     ],
+     [
+      11,
+      14
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p04",
+  "lv": "A1",
+  "label": "très / beaucoup",
+  "en": "very / a lot",
+  "note": [
+   "très: very, before an adjective. beaucoup: a lot.",
+   "très grand. Il mange beaucoup. beaucoup de gens."
+  ],
+  "near": [
+   "p03",
+   "p20",
+   "p12"
+  ],
+  "keys": [
+   "w0065",
+   "w0136"
+  ],
+  "sentences": [
+   {
+    "id": "p04.1",
+    "src": "s0121",
+    "t": "Je peux nager très vite.",
+    "en": "I can swim very fast.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0028",
+     "w0065",
+     "w0267"
+    ],
+    "marks": [
+     [
+      14,
+      18
+     ]
+    ]
+   },
+   {
+    "id": "p04.2",
+    "src": "s0996",
+    "t": "Cette pomme est très rouge.",
+    "en": "This apple is very red.",
+    "lv": "A1",
+    "words": [
+     "w0020",
+     "w0562",
+     "w0003",
+     "w0065",
+     "w0483"
+    ],
+    "marks": [
+     [
+      16,
+      20
+     ]
+    ]
+   },
+   {
+    "id": "p04.3",
+    "src": "s1659",
+    "t": "La forme est très importante.",
+    "en": "Shape is very important.",
+    "lv": "A1",
+    "words": [
+     "w0002",
+     "w0420",
+     "w0003",
+     "w0065",
+     "w0245"
+    ],
+    "marks": [
+     [
+      13,
+      17
+     ]
+    ]
+   },
+   {
+    "id": "p04.4",
+    "src": "s2010",
+    "t": "Ses cours sont très longs.",
+    "en": "His lectures are very long.",
+    "lv": "A1",
+    "words": [
+     "w0029",
+     "w0279",
+     "w0003",
+     "w0065",
+     "w0331"
+    ],
+    "marks": [
+     [
+      15,
+      19
+     ]
+    ]
+   },
+   {
+    "id": "p04.5",
+    "src": "s0101",
+    "t": "J'aime beaucoup la musique.",
+    "en": "I like music very much.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0087",
+     "w0136",
+     "w0002",
+     "w0425"
+    ],
+    "marks": [
+     [
+      7,
+      15
+     ]
+    ]
+   },
+   {
+    "id": "p04.6",
+    "src": "s0300",
+    "t": "Merci beaucoup pour votre aide.",
+    "en": "Thank you very much for your help.",
+    "lv": "A1",
+    "words": [
+     "w0593",
+     "w0136",
+     "w0015",
+     "w0057",
+     "w0381"
+    ],
+    "marks": [
+     [
+      6,
+      14
+     ]
+    ]
+   },
+   {
+    "id": "p04.7",
+    "src": "s2829",
+    "t": "Tom a beaucoup d'amis à Boston.",
+    "en": "Tom has a lot of friends in Boston.",
+    "lv": "A1",
+    "words": [
+     "w0005",
+     "w0136",
+     "w0001",
+     "w0179",
+     "w0007"
+    ],
+    "marks": [
+     [
+      6,
+      14
+     ]
+    ]
+   },
+   {
+    "id": "p04.8",
+    "src": "s0411",
+    "t": "Marie aime beaucoup le lait.",
+    "en": "Mary likes milk very much.",
+    "lv": "A1",
+    "words": [
+     "w0087",
+     "w0136",
+     "w0002",
+     "w0547"
+    ],
+    "marks": [
+     [
+      11,
+      19
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p05",
+  "lv": "A1",
+  "label": "pouvoir + infinitive",
+  "en": "can, to be able to",
+  "note": [
+   "Can, be able to: the form follows the subject.",
+   "je peux, il peut, nous pouvons + infinitive"
+  ],
+  "near": [
+   "p02",
+   "p06",
+   "p07",
+   "p08",
+   "p17",
+   "p19"
+  ],
+  "keys": [
+   "w0028"
+  ],
+  "sentences": [
+   {
+    "id": "p05.1",
+    "src": "s0097",
+    "t": "Je peux lire sans lunettes.",
+    "en": "I can read without glasses.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0028",
+     "w0255",
+     "w0084"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   },
+   {
+    "id": "p05.2",
+    "src": "s0635",
+    "t": "Il peut parler cinq langues.",
+    "en": "He is able to speak five languages.",
+    "lv": "A1",
+    "words": [
+     "w0014",
+     "w0028",
+     "w0074",
+     "w0396",
+     "w0489"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   },
+   {
+    "id": "p05.3",
+    "src": "s2034",
+    "t": "Vous pouvez en choisir un.",
+    "en": "You can choose one of them.",
+    "lv": "A1",
+    "words": [
+     "w0018",
+     "w0028",
+     "w0047",
+     "w0361",
+     "w0004"
+    ],
+    "marks": [
+     [
+      5,
+      11
+     ]
+    ]
+   },
+   {
+    "id": "p05.4",
+    "src": "s2666",
+    "t": "Nous pouvons nous rencontrer.",
+    "en": "We can meet.",
+    "lv": "A1",
+    "words": [
+     "w0039",
+     "w0028",
+     "w0278"
+    ],
+    "marks": [
+     [
+      5,
+      12
+     ]
+    ]
+   },
+   {
+    "id": "p05.5",
+    "src": "s2250",
+    "t": "Personne ne peut me battre.",
+    "en": "Nobody can beat me.",
+    "lv": "A1",
+    "words": [
+     "w0155",
+     "w0012",
+     "w0028",
+     "w0025",
+     "w0408"
+    ],
+    "marks": [
+     [
+      12,
+      16
+     ]
+    ]
+   },
+   {
+    "id": "p05.6",
+    "src": "s1015",
+    "t": "Peux-tu fermer la porte ?",
+    "en": "Shut the door, will you?",
+    "lv": "A1",
+    "words": [
+     "w0028",
+     "w0017",
+     "w0481",
+     "w0002",
+     "w0281"
+    ],
+    "marks": [
+     [
+      0,
+      4
+     ]
+    ]
+   },
+   {
+    "id": "p05.7",
+    "src": "s0276",
+    "t": "Pouvez-vous en faire autant ?",
+    "en": "Can you do as much?",
+    "lv": "A1",
+    "words": [
+     "w0028",
+     "w0018",
+     "w0047",
+     "w0016",
+     "w0337"
+    ],
+    "marks": [
+     [
+      0,
+      6
+     ]
+    ]
+   },
+   {
+    "id": "p05.8",
+    "src": "s2128",
+    "t": "Je peux y arriver.",
+    "en": "I can do it.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0028",
+     "w0040",
+     "w0107"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p06",
+  "lv": "A1",
+  "label": "vouloir + infinitive",
+  "en": "to want to",
+  "note": [
+   "Want to: the form follows the subject.",
+   "je veux, il veut, nous voulons + infinitive"
+  ],
+  "near": [
+   "p02",
+   "p05",
+   "p07",
+   "p08",
+   "p17",
+   "p19"
+  ],
+  "keys": [
+   "w0041"
+  ],
+  "sentences": [
+   {
+    "id": "p06.1",
+    "src": "s0132",
+    "t": "Je veux voir le film.",
+    "en": "I want to see the movie.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0041",
+     "w0048",
+     "w0002",
+     "w0280"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   },
+   {
+    "id": "p06.2",
+    "src": "s2354",
+    "t": "Je veux retrouver ma vie.",
+    "en": "I want my life back.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0041",
+     "w0246",
+     "w0030",
+     "w0105"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   },
+   {
+    "id": "p06.3",
+    "src": "s1840",
+    "t": "Tom veut partir pour Boston.",
+    "en": "Tom wants to move to Boston.",
+    "lv": "A1",
+    "words": [
+     "w0041",
+     "w0114",
+     "w0015"
+    ],
+    "marks": [
+     [
+      4,
+      8
+     ]
+    ]
+   },
+   {
+    "id": "p06.4",
+    "src": "s0978",
+    "t": "Nous voulons plus d'information.",
+    "en": "We want further information.",
+    "lv": "A1",
+    "words": [
+     "w0039",
+     "w0041",
+     "w0037",
+     "w0001",
+     "w0349"
+    ],
+    "marks": [
+     [
+      5,
+      12
+     ]
+    ]
+   },
+   {
+    "id": "p06.5",
+    "src": "s1518",
+    "t": "Nous voulons connaître les faits.",
+    "en": "We want to know the facts.",
+    "lv": "A1",
+    "words": [
+     "w0039",
+     "w0041",
+     "w0122",
+     "w0002",
+     "w0340"
+    ],
+    "marks": [
+     [
+      5,
+      12
+     ]
+    ]
+   },
+   {
+    "id": "p06.6",
+    "src": "s1858",
+    "t": "Veux-tu devenir ma femme ?",
+    "en": "Do you want to be my wife?",
+    "lv": "A1",
+    "words": [
+     "w0041",
+     "w0017",
+     "w0158",
+     "w0030",
+     "w0116"
+    ],
+    "marks": [
+     [
+      0,
+      4
+     ]
+    ]
+   },
+   {
+    "id": "p06.7",
+    "src": "s0198",
+    "t": "Mangez autant que vous voulez.",
+    "en": "Eat as much as you like.",
+    "lv": "A1",
+    "words": [
+     "w0282",
+     "w0337",
+     "w0008",
+     "w0018",
+     "w0041"
+    ],
+    "marks": [
+     [
+      23,
+      29
+     ]
+    ]
+   },
+   {
+    "id": "p06.8",
+    "src": "s2401",
+    "t": "Je veux manger du fromage.",
+    "en": "I want to eat some cheese.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0041",
+     "w0282",
+     "w0001",
+     "w0569"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p07",
+  "lv": "A1",
+  "label": "devoir + infinitive",
+  "en": "must, to have to",
+  "note": [
+   "Must, have to: the form follows the subject.",
+   "je dois, il doit, nous devons + infinitive"
+  ],
+  "near": [
+   "p02",
+   "p05",
+   "p06",
+   "p08",
+   "p17",
+   "p19"
+  ],
+  "keys": [
+   "w0044"
+  ],
+  "sentences": [
+   {
+    "id": "p07.1",
+    "src": "s0005",
+    "t": "Je dois aller au lit.",
+    "en": "I have to go to bed.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0044",
+     "w0027",
+     "w0007",
+     "w0485"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   },
+   {
+    "id": "p07.2",
+    "src": "s0060",
+    "t": "On doit penser aux amis.",
+    "en": "We must think about friends.",
+    "lv": "A1",
+    "words": [
+     "w0019",
+     "w0044",
+     "w0079",
+     "w0007",
+     "w0179"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   },
+   {
+    "id": "p07.3",
+    "src": "s1160",
+    "t": "Nous devons garder notre calme.",
+    "en": "We must keep calm.",
+    "lv": "A1",
+    "words": [
+     "w0039",
+     "w0044",
+     "w0273",
+     "w0063"
+    ],
+    "marks": [
+     [
+      5,
+      11
+     ]
+    ]
+   },
+   {
+    "id": "p07.4",
+    "src": "s1211",
+    "t": "Tu dois t'en aller.",
+    "en": "You have to go.",
+    "lv": "A1",
+    "words": [
+     "w0017",
+     "w0044",
+     "w0033",
+     "w0047",
+     "w0027"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   },
+   {
+    "id": "p07.5",
+    "src": "s2264",
+    "t": "Vous devez rester en forme.",
+    "en": "You have to stay fit.",
+    "lv": "A1",
+    "words": [
+     "w0018",
+     "w0044",
+     "w0112",
+     "w0013",
+     "w0420"
+    ],
+    "marks": [
+     [
+      5,
+      10
+     ]
+    ]
+   },
+   {
+    "id": "p07.6",
+    "src": "s0268",
+    "t": "Je dois vous demander pardon.",
+    "en": "I must beg your pardon.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0044",
+     "w0018",
+     "w0117",
+     "w0595"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   },
+   {
+    "id": "p07.7",
+    "src": "s0172",
+    "t": "Dois-je ouvrir la fenêtre ?",
+    "en": "Must I open the window?",
+    "lv": "A1",
+    "words": [
+     "w0044",
+     "w0006",
+     "w0257",
+     "w0002",
+     "w0519"
+    ],
+    "marks": [
+     [
+      0,
+      4
+     ]
+    ]
+   },
+   {
+    "id": "p07.8",
+    "src": "s2113",
+    "t": "Nous devons protéger les enfants.",
+    "en": "We must protect the children.",
+    "lv": "A1",
+    "words": [
+     "w0039",
+     "w0044",
+     "w0607",
+     "w0002",
+     "w0140"
+    ],
+    "marks": [
+     [
+      5,
+      11
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p08",
+  "lv": "A1",
+  "label": "venir de + infinitive",
+  "en": "to have just done something",
+  "note": [
+   "Just did something.",
+   "venir (viens, vient) de + infinitive: Je viens de manger."
+  ],
+  "near": [
+   "p02",
+   "p05",
+   "p06",
+   "p07",
+   "p17",
+   "p19"
+  ],
+  "keys": [
+   "w0059"
+  ],
+  "sentences": [
+   {
+    "id": "p08.1",
+    "src": "s1480",
+    "t": "Je viens de le terminer.",
+    "en": "Just finished it.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0059",
+     "w0001",
+     "w0024",
+     "w0464"
+    ],
+    "marks": [
+     [
+      3,
+      8
+     ]
+    ]
+   },
+   {
+    "id": "p08.2",
+    "src": "s2324",
+    "t": "Je viens de recevoir ça.",
+    "en": "I just got that.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0059",
+     "w0001",
+     "w0296",
+     "w0022"
+    ],
+    "marks": [
+     [
+      3,
+      8
+     ]
+    ]
+   },
+   {
+    "id": "p08.3",
+    "src": "s2326",
+    "t": "Je viens de le découvrir.",
+    "en": "I just found out about it.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0059",
+     "w0001",
+     "w0024",
+     "w0377"
+    ],
+    "marks": [
+     [
+      3,
+      8
+     ]
+    ]
+   },
+   {
+    "id": "p08.4",
+    "src": "s2748",
+    "t": "Tom vient de rentrer à Boston aujourd'hui.",
+    "en": "Tom just got back to Boston today.",
+    "lv": "A1",
+    "words": [
+     "w0059",
+     "w0001",
+     "w0259",
+     "w0007",
+     "w0191"
+    ],
+    "marks": [
+     [
+      4,
+      9
+     ]
+    ]
+   },
+   {
+    "id": "p08.5",
+    "src": "s2812",
+    "t": "Tom vient de revenir de Boston.",
+    "en": "Tom just returned from Boston.",
+    "lv": "A1",
+    "words": [
+     "w0059",
+     "w0001",
+     "w0195"
+    ],
+    "marks": [
+     [
+      4,
+      9
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p09",
+  "lv": "A1",
+  "label": "ce / cet / cette / ces",
+  "en": "this, that, these",
+  "note": [
+   "This, that, these: it agrees with the noun.",
+   "ce livre, cet homme, cette fille, ces gens"
+  ],
+  "near": [
+   "p10",
+   "p11",
+   "p12"
+  ],
+  "keys": [
+   "w0020"
+  ],
+  "sentences": [
+   {
+    "id": "p09.1",
+    "src": "s0138",
+    "t": "Je connais bien ce sujet.",
+    "en": "I am familiar with this subject.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0122",
+     "w0043",
+     "w0020",
+     "w0355"
+    ],
+    "marks": [
+     [
+      16,
+      18
+     ]
+    ]
+   },
+   {
+    "id": "p09.2",
+    "src": "s1958",
+    "t": "Parle-moi de ce type.",
+    "en": "Tell me about this guy.",
+    "lv": "A1",
+    "words": [
+     "w0074",
+     "w0052",
+     "w0001",
+     "w0020",
+     "w0264"
+    ],
+    "marks": [
+     [
+      13,
+      15
+     ]
+    ]
+   },
+   {
+    "id": "p09.3",
+    "src": "s0273",
+    "t": "Avez-vous lu cet article ?",
+    "en": "Have you read this article?",
+    "lv": "A1",
+    "words": [
+     "w0005",
+     "w0018",
+     "w0255",
+     "w0020",
+     "w0451"
+    ],
+    "marks": [
+     [
+      13,
+      16
+     ]
+    ]
+   },
+   {
+    "id": "p09.4",
+    "src": "s1332",
+    "t": "J'habite dans cet hôtel.",
+    "en": "I live in this hotel.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0512",
+     "w0023",
+     "w0020",
+     "w0486"
+    ],
+    "marks": [
+     [
+      14,
+      17
+     ]
+    ]
+   },
+   {
+    "id": "p09.5",
+    "src": "s0124",
+    "t": "Je crois à cette histoire.",
+    "en": "I believe that story.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0091",
+     "w0007",
+     "w0020",
+     "w0175"
+    ],
+    "marks": [
+     [
+      11,
+      16
+     ]
+    ]
+   },
+   {
+    "id": "p09.6",
+    "src": "s2088",
+    "t": "Cette chaussure me va bien.",
+    "en": "This shoe fits me well.",
+    "lv": "A1",
+    "words": [
+     "w0020",
+     "w0533",
+     "w0025",
+     "w0027",
+     "w0043"
+    ],
+    "marks": [
+     [
+      0,
+      5
+     ]
+    ]
+   },
+   {
+    "id": "p09.7",
+    "src": "s0339",
+    "t": "Apprenez ces noms par cœur.",
+    "en": "Learn these names by heart.",
+    "lv": "A1",
+    "words": [
+     "w0263",
+     "w0020",
+     "w0154",
+     "w0042",
+     "w0265"
+    ],
+    "marks": [
+     [
+      9,
+      12
+     ]
+    ]
+   },
+   {
+    "id": "p09.8",
+    "src": "s0064",
+    "t": "Qui sont ces types-là ?",
+    "en": "Who are those guys?",
+    "lv": "A1",
+    "words": [
+     "w0021",
+     "w0003",
+     "w0020",
+     "w0264",
+     "w0067"
+    ],
+    "marks": [
+     [
+      9,
+      12
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p10",
+  "lv": "A1",
+  "label": "mon / ma / mes",
+  "en": "my",
+  "note": [
+   "My: it agrees with the noun.",
+   "mon père, ma mère, mes amis"
+  ],
+  "near": [
+   "p09",
+   "p11",
+   "p12"
+  ],
+  "keys": [
+   "w0030"
+  ],
+  "sentences": [
+   {
+    "id": "p10.1",
+    "src": "s0159",
+    "t": "Mon frère vit à Tokyo.",
+    "en": "My brother lives in Tokyo.",
+    "lv": "A1",
+    "words": [
+     "w0030",
+     "w0271",
+     "w0160",
+     "w0007"
+    ],
+    "marks": [
+     [
+      0,
+      3
+     ]
+    ]
+   },
+   {
+    "id": "p10.2",
+    "src": "s0199",
+    "t": "Voici mon numéro de compte.",
+    "en": "Here's my account number.",
+    "lv": "A1",
+    "words": [
+     "w0404",
+     "w0030",
+     "w0455",
+     "w0001",
+     "w0272"
+    ],
+    "marks": [
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   {
+    "id": "p10.3",
+    "src": "s1378",
+    "t": "Mon père a cinquante ans.",
+    "en": "My father is fifty years old.",
+    "lv": "A1",
+    "words": [
+     "w0030",
+     "w0169",
+     "w0005",
+     "w0580",
+     "w0090"
+    ],
+    "marks": [
+     [
+      0,
+      3
+     ]
+    ]
+   },
+   {
+    "id": "p10.4",
+    "src": "s0150",
+    "t": "Ma mère adore le thé.",
+    "en": "My mother likes tea very much.",
+    "lv": "A1",
+    "words": [
+     "w0030",
+     "w0188",
+     "w0462",
+     "w0002",
+     "w0553"
+    ],
+    "marks": [
+     [
+      0,
+      2
+     ]
+    ]
+   },
+   {
+    "id": "p10.5",
+    "src": "s0542",
+    "t": "Je dors dans ma chambre.",
+    "en": "I sleep in my room.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0444",
+     "w0023",
+     "w0030",
+     "w0329"
+    ],
+    "marks": [
+     [
+      13,
+      15
+     ]
+    ]
+   },
+   {
+    "id": "p10.6",
+    "src": "s1362",
+    "t": "C'est ma chaise préférée.",
+    "en": "That's my favorite chair.",
+    "lv": "A1",
+    "words": [
+     "w0011",
+     "w0003",
+     "w0030",
+     "w0564",
+     "w0426"
+    ],
+    "marks": [
+     [
+      6,
+      8
+     ]
+    ]
+   },
+   {
+    "id": "p10.7",
+    "src": "s0583",
+    "t": "Mes pieds me font mal.",
+    "en": "I have sore feet.",
+    "lv": "A1",
+    "words": [
+     "w0030",
+     "w0384",
+     "w0025",
+     "w0016",
+     "w0295"
+    ],
+    "marks": [
+     [
+      0,
+      3
+     ]
+    ]
+   },
+   {
+    "id": "p10.8",
+    "src": "s1614",
+    "t": "Un de mes amis te connaît.",
+    "en": "One of my friends knows you.",
+    "lv": "A1",
+    "words": [
+     "w0599",
+     "w0001",
+     "w0030",
+     "w0179",
+     "w0033",
+     "w0122"
+    ],
+    "marks": [
+     [
+      6,
+      9
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p11",
+  "lv": "A1",
+  "label": "quel / quelle",
+  "en": "which, what",
+  "note": [
+   "Which, what: it agrees with the noun.",
+   "quel âge, quelle heure, quel genre"
+  ],
+  "near": [
+   "p09",
+   "p10",
+   "p12"
+  ],
+  "keys": [
+   "w0147"
+  ],
+  "sentences": [
+   {
+    "id": "p11.1",
+    "src": "s0035",
+    "t": "De quel pays viens-tu ?",
+    "en": "Where do you come from?",
+    "lv": "A1",
+    "words": [
+     "w0001",
+     "w0147",
+     "w0216",
+     "w0059",
+     "w0017"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   },
+   {
+    "id": "p11.2",
+    "src": "s1694",
+    "t": "Quel est ton groupe préféré ?",
+    "en": "What is your favorite band?",
+    "lv": "A1",
+    "words": [
+     "w0147",
+     "w0003",
+     "w0053",
+     "w0283"
+    ],
+    "marks": [
+     [
+      0,
+      4
+     ]
+    ]
+   },
+   {
+    "id": "p11.3",
+    "src": "s2101",
+    "t": "Quel est l'effet secondaire ?",
+    "en": "What's the side effect?",
+    "lv": "A1",
+    "words": [
+     "w0147",
+     "w0003",
+     "w0002",
+     "w0310"
+    ],
+    "marks": [
+     [
+      0,
+      4
+     ]
+    ]
+   },
+   {
+    "id": "p11.4",
+    "src": "s2629",
+    "t": "Dans quel but épargnes-tu ?",
+    "en": "What are you saving up for?",
+    "lv": "A1",
+    "words": [
+     "w0023",
+     "w0147",
+     "w0463",
+     "w0017"
+    ],
+    "marks": [
+     [
+      5,
+      9
+     ]
+    ]
+   },
+   {
+    "id": "p11.5",
+    "src": "s0995",
+    "t": "Quelle équipe gagnera la partie ?",
+    "en": "Which team will win the game?",
+    "lv": "A1",
+    "words": [
+     "w0147",
+     "w0256",
+     "w0262",
+     "w0002",
+     "w0187"
+    ],
+    "marks": [
+     [
+      0,
+      6
+     ]
+    ]
+   },
+   {
+    "id": "p11.6",
+    "src": "s2566",
+    "t": "Quelle route dois-je prendre ?",
+    "en": "Which way should I go?",
+    "lv": "A1",
+    "words": [
+     "w0147",
+     "w0413",
+     "w0044",
+     "w0006",
+     "w0062"
+    ],
+    "marks": [
+     [
+      0,
+      6
+     ]
+    ]
+   },
+   {
+    "id": "p11.7",
+    "src": "s1008",
+    "t": "Quel beau coucher de soleil !",
+    "en": "What a beautiful sunset!",
+    "lv": "A1",
+    "words": [
+     "w0147",
+     "w0143",
+     "w0001",
+     "w0491"
+    ],
+    "marks": [
+     [
+      0,
+      4
+     ]
+    ]
+   },
+   {
+    "id": "p11.8",
+    "src": "s2977",
+    "t": "Pour quelle raison voulez-vous vous rendre à Boston ?",
+    "en": "Why do you want to go to Boston?",
+    "lv": "A1",
+    "words": [
+     "w0015",
+     "w0147",
+     "w0166",
+     "w0041",
+     "w0018",
+     "w0146",
+     "w0007"
+    ],
+    "marks": [
+     [
+      5,
+      11
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p12",
+  "lv": "A1",
+  "label": "tout / tous / toutes",
+  "en": "all, every",
+  "note": [
+   "All, every: it agrees with the noun.",
+   "tout le monde, tous les bus, toutes les chaises"
+  ],
+  "near": [
+   "p09",
+   "p10",
+   "p11",
+   "p15"
+  ],
+  "keys": [
+   "w0096",
+   "w0064",
+   "w0045"
+  ],
+  "sentences": [
+   {
+    "id": "p12.1",
+    "src": "s0373",
+    "t": "Tout le monde le sait.",
+    "en": "Anybody knows it.",
+    "lv": "A1",
+    "words": [
+     "w0096",
+     "w0024",
+     "w0046"
+    ],
+    "marks": [
+     [
+      0,
+      4
+     ]
+    ]
+   },
+   {
+    "id": "p12.2",
+    "src": "s0055",
+    "t": "Tout finit par se payer.",
+    "en": "What goes around, comes around.",
+    "lv": "A1",
+    "words": [
+     "w0064",
+     "w0209",
+     "w0042",
+     "w0026",
+     "w0252"
+    ],
+    "marks": [
+     [
+      0,
+      4
+     ]
+    ]
+   },
+   {
+    "id": "p12.3",
+    "src": "s1954",
+    "t": "Tout mon corps est douloureux.",
+    "en": "My whole body is sore.",
+    "lv": "A1",
+    "words": [
+     "w0045",
+     "w0030",
+     "w0308",
+     "w0003"
+    ],
+    "marks": [
+     [
+      0,
+      4
+     ]
+    ]
+   },
+   {
+    "id": "p12.4",
+    "src": "s0390",
+    "t": "Tous les bus sont pleins.",
+    "en": "Every bus is full.",
+    "lv": "A1",
+    "words": [
+     "w0045",
+     "w0002",
+     "w0531",
+     "w0003",
+     "w0266"
+    ],
+    "marks": [
+     [
+      0,
+      4
+     ]
+    ]
+   },
+   {
+    "id": "p12.5",
+    "src": "s1648",
+    "t": "Tous les membres étaient présents.",
+    "en": "All the members were present.",
+    "lv": "A1",
+    "words": [
+     "w0045",
+     "w0002",
+     "w0460",
+     "w0003"
+    ],
+    "marks": [
+     [
+      0,
+      4
+     ]
+    ]
+   },
+   {
+    "id": "p12.6",
+    "src": "s0393",
+    "t": "Toutes les chaises étaient occupées.",
+    "en": "Every seat was full.",
+    "lv": "A1",
+    "words": [
+     "w0045",
+     "w0002",
+     "w0564",
+     "w0003",
+     "w0298"
+    ],
+    "marks": [
+     [
+      0,
+      6
+     ]
+    ]
+   },
+   {
+    "id": "p12.7",
+    "src": "s1608",
+    "t": "Tournez toutes les quinze minutes.",
+    "en": "Stir once every fifteen minutes.",
+    "lv": "A1",
+    "words": [
+     "w0437",
+     "w0045",
+     "w0002",
+     "w0575",
+     "w0242"
+    ],
+    "marks": [
+     [
+      8,
+      14
+     ]
+    ]
+   },
+   {
+    "id": "p12.8",
+    "src": "s2882",
+    "t": "Elles parlent toutes français.",
+    "en": "They all speak French.",
+    "lv": "A1",
+    "words": [
+     "w0180",
+     "w0074",
+     "w0045",
+     "w0443"
+    ],
+    "marks": [
+     [
+      14,
+      20
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p13",
+  "lv": "A1",
+  "label": "depuis / pendant",
+  "en": "since, for / during",
+  "note": [
+   "depuis: since, still going on. pendant: during, for.",
+   "Je vis ici depuis mai. Il dort pendant une heure."
+  ],
+  "near": [
+   "p14",
+   "p15"
+  ],
+  "keys": [
+   "w0119",
+   "w0173"
+  ],
+  "sentences": [
+   {
+    "id": "p13.1",
+    "src": "s0616",
+    "t": "Le connaissez-vous depuis longtemps ?",
+    "en": "Have you known him for a long time?",
+    "lv": "A1",
+    "words": [
+     "w0024",
+     "w0122",
+     "w0018",
+     "w0119",
+     "w0334"
+    ],
+    "marks": [
+     [
+      19,
+      25
+     ]
+    ]
+   },
+   {
+    "id": "p13.2",
+    "src": "s1380",
+    "t": "Mère est malade depuis jeudi dernier.",
+    "en": "Mother has been sick since last Thursday.",
+    "lv": "A1",
+    "words": [
+     "w0188",
+     "w0003",
+     "w0488",
+     "w0119",
+     "w0559",
+     "w0131"
+    ],
+    "marks": [
+     [
+      16,
+      22
+     ]
+    ]
+   },
+   {
+    "id": "p13.3",
+    "src": "s1650",
+    "t": "Je suis ici depuis samedi.",
+    "en": "I've been here since Saturday.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0003",
+     "w0069",
+     "w0119",
+     "w0513"
+    ],
+    "marks": [
+     [
+      12,
+      18
+     ]
+    ]
+   },
+   {
+    "id": "p13.4",
+    "src": "s2935",
+    "t": "Je vis à Boston depuis 1995.",
+    "en": "I have lived in Boston since 1995.",
+    "lv": "A1",
+    "words": [
+     "w0006",
+     "w0160",
+     "w0007",
+     "w0119"
+    ],
+    "marks": [
+     [
+      16,
+      22
+     ]
+    ]
+   },
+   {
+    "id": "p13.5",
+    "src": "s2649",
+    "t": "Nous vivons ici depuis janvier.",
+    "en": "We've been living here since January.",
+    "lv": "A1",
+    "words": [
+     "w0039",
+     "w0160",
+     "w0069",
+     "w0119",
+     "w0542"
+    ],
+    "marks": [
+     [
+      16,
+      22
+     ]
+    ]
+   },
+   {
+    "id": "p13.6",
+    "src": "s1268",
+    "t": "Veuillez attendre pendant cinq minutes.",
+    "en": "Please wait for five minutes.",
+    "lv": "A1",
+    "words": [
+     "w0041",
+     "w0125",
+     "w0173",
+     "w0396",
+     "w0242"
+    ],
+    "marks": [
+     [
+      18,
+      25
+     ]
+    ]
+   },
+   {
+    "id": "p13.7",
+    "src": "s2765",
+    "t": "Tom a vécu à Boston pendant longtemps.",
+    "en": "Tom lived in Boston for a long time.",
+    "lv": "A1",
+    "words": [
+     "w0005",
+     "w0160",
+     "w0007",
+     "w0173",
+     "w0334"
+    ],
+    "marks": [
+     [
+      20,
+      27
+     ]
+    ]
+   },
+   {
+    "id": "p13.8",
+    "src": "s2780",
+    "t": "Tom sera à Boston pendant une semaine.",
+    "en": "Tom will be in Boston for a week.",
+    "lv": "A1",
+    "words": [
+     "w0003",
+     "w0007",
+     "w0173",
+     "w0004",
+     "w0205"
+    ],
+    "marks": [
+     [
+      18,
+      25
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p14",
+  "lv": "A2",
+  "label": "il y a",
+  "en": "there is, there are",
+  "note": [
+   "There is, there are.",
+   "Il y a un chat. Il y a trois chats."
+  ],
+  "near": [
+   "p13"
+  ],
+  "keys": [
+   "w0051"
+  ],
+  "sentences": [
+   {
+    "id": "p14.1",
+    "src": "s1202",
+    "t": "Il y a quatre saisons au Japon.",
+    "en": "We have four seasons in Japan.",
+    "lv": "A2",
+    "words": [
+     "w0051",
+     "w0344",
+     "w0738",
+     "w0007"
+    ],
+    "marks": [
+     [
+      0,
+      6
+     ]
+    ]
+   },
+   {
+    "id": "p14.2",
+    "src": "s1330",
+    "t": "Il y a une base militaire à proximité.",
+    "en": "There is a military base near here.",
+    "lv": "A2",
+    "words": [
+     "w0051",
+     "w0004",
+     "w0610",
+     "w1083",
+     "w0007"
+    ],
+    "marks": [
+     [
+      0,
+      6
+     ]
+    ]
+   },
+   {
+    "id": "p14.3",
+    "src": "s1492",
+    "t": "Il y a un cheveu dans ma soupe.",
+    "en": "There's a hair in my soup.",
+    "lv": "A2",
+    "words": [
+     "w0051",
+     "w0004",
+     "w0864",
+     "w0023",
+     "w0030"
+    ],
+    "marks": [
+     [
+      0,
+      6
+     ]
+    ]
+   },
+   {
+    "id": "p14.4",
+    "src": "s2053",
+    "t": "Il y a pourtant une solution.",
+    "en": "There is a solution though.",
+    "lv": "A2",
+    "words": [
+     "w0051",
+     "w0705",
+     "w0004",
+     "w0837"
+    ],
+    "marks": [
+     [
+      0,
+      6
+     ]
+    ]
+   },
+   {
+    "id": "p14.5",
+    "src": "s2448",
+    "t": "Il y a beaucoup de parcs à Boston.",
+    "en": "There are many parks in Boston.",
+    "lv": "A2",
+    "words": [
+     "w0051",
+     "w0136",
+     "w0001",
+     "w1131",
+     "w0007"
+    ],
+    "marks": [
+     [
+      0,
+      6
+     ]
+    ],
+    "edited": true
+   }
+  ]
+ },
+ {
+  "id": "p15",
+  "lv": "A2",
+  "label": "par / pour",
+  "en": "by / for",
+  "note": [
+   "par: by, on, through. pour: for, in order to.",
+   "fait par Tom (by); fait pour Tom (for)"
+  ],
+  "near": [
+   "p13"
+  ],
+  "keys": [
+   "w0042",
+   "w0015"
+  ],
+  "sentences": [
+   {
+    "id": "p15.1",
+    "src": "s0459",
+    "t": "J'ai été trompé par son apparence.",
+    "en": "I was deceived by her appearance.",
+    "lv": "A2",
+    "words": [
+     "w0006",
+     "w0005",
+     "w0003",
+     "w0876",
+     "w0042",
+     "w0029"
+    ],
+    "marks": [
+     [
+      16,
+      19
+     ]
+    ]
+   },
+   {
+    "id": "p15.2",
+    "src": "s2166",
+    "t": "Nous avons été attaqués par des pirates !",
+    "en": "We were attacked by pirates!",
+    "lv": "A2",
+    "words": [
+     "w0039",
+     "w0005",
+     "w0003",
+     "w0939",
+     "w0042",
+     "w0001"
+    ],
+    "marks": [
+     [
+      24,
+      27
+     ]
+    ]
+   },
+   {
+    "id": "p15.3",
+    "src": "s0531",
+    "t": "Je suis intéressé par l'Histoire japonaise.",
+    "en": "I am interested in Japanese history.",
+    "lv": "A2",
+    "words": [
+     "w0006",
+     "w0003",
+     "w0676",
+     "w0042",
+     "w0002"
+    ],
+    "marks": [
+     [
+      18,
+      21
+     ]
+    ]
+   },
+   {
+    "id": "p15.4",
+    "src": "s3082",
+    "t": "Il m'a dépassé par la droite.",
+    "en": "He passed me on the right.",
+    "lv": "A2",
+    "words": [
+     "w0014",
+     "w0025",
+     "w0005",
+     "w1190",
+     "w0042",
+     "w0002",
+     "w0842"
+    ],
+    "marks": [
+     [
+      15,
+      18
+     ]
+    ]
+   },
+   {
+    "id": "p15.5",
+    "src": "s1019",
+    "t": "Susan a fait une robe pour Jill.",
+    "en": "Susan made a dress for Jill.",
+    "lv": "A2",
+    "words": [
+     "w0005",
+     "w0016",
+     "w0004",
+     "w1184",
+     "w0015"
+    ],
+    "marks": [
+     [
+      22,
+      26
+     ]
+    ]
+   },
+   {
+    "id": "p15.6",
+    "src": "s1204",
+    "t": "Il travaille dur pour atteindre son but.",
+    "en": "He works hard to achieve his goal.",
+    "lv": "A2",
+    "words": [
+     "w0014",
+     "w0210",
+     "w0375",
+     "w0015",
+     "w0729",
+     "w0029",
+     "w0463"
+    ],
+    "marks": [
+     [
+      17,
+      21
+     ]
+    ]
+   },
+   {
+    "id": "p15.7",
+    "src": "s1241",
+    "t": "Le sport est bon pour votre santé.",
+    "en": "Sport is good for your health.",
+    "lv": "A2",
+    "words": [
+     "w0002",
+     "w1021",
+     "w0003",
+     "w0056",
+     "w0015",
+     "w0057",
+     "w0689"
+    ],
+    "marks": [
+     [
+      17,
+      21
+     ]
+    ]
+   },
+   {
+    "id": "p15.8",
+    "src": "s2926",
+    "t": "Je vais à Boston pour les vacances.",
+    "en": "I'm going to Boston for the holidays.",
+    "lv": "A2",
+    "words": [
+     "w0006",
+     "w0027",
+     "w0007",
+     "w0015",
+     "w0002",
+     "w1039"
+    ],
+    "marks": [
+     [
+      17,
+      21
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p16",
+  "lv": "A2",
+  "label": "de / que",
+  "en": "de after a quantity, que after a comparison",
+  "note": [
+   "de after a quantity or a negative; que after a comparison.",
+   "beaucoup de temps; plus grand que moi"
+  ],
+  "near": [
+   "p21",
+   "p22",
+   "p09",
+   "p10",
+   "p23",
+   "p11",
+   "p12"
+  ],
+  "keys": [
+   "w0001",
+   "w0008"
+  ],
+  "sentences": [
+   {
+    "id": "p16.1",
+    "src": "s0200",
+    "t": "Mes activités officielles me prennent beaucoup de temps.",
+    "en": "My public duties take a lot of time.",
+    "lv": "A2",
+    "words": [
+     "w0030",
+     "w0889",
+     "w1169",
+     "w0025",
+     "w0062",
+     "w0136",
+     "w0001",
+     "w0083"
+    ],
+    "marks": [
+     [
+      47,
+      49
+     ]
+    ]
+   },
+   {
+    "id": "p16.2",
+    "src": "s0217",
+    "t": "Les garçons, ne faites pas de bruit.",
+    "en": "Boys, don't make any noise.",
+    "lv": "A2",
+    "words": [
+     "w0002",
+     "w0476",
+     "w0012",
+     "w0016",
+     "w0010",
+     "w0001",
+     "w1073"
+    ],
+    "marks": [
+     [
+      27,
+      29
+     ]
+    ]
+   },
+   {
+    "id": "p16.3",
+    "src": "s2384",
+    "t": "Je ne prends pas de risques inutiles.",
+    "en": "I don't take needless risks.",
+    "lv": "A2",
+    "words": [
+     "w0006",
+     "w0012",
+     "w0062",
+     "w0010",
+     "w0001",
+     "w0619",
+     "w1192"
+    ],
+    "marks": [
+     [
+      17,
+      19
+     ]
+    ]
+   },
+   {
+    "id": "p16.4",
+    "src": "s1248",
+    "t": "Ajoutons-nous un peu plus de sel ?",
+    "en": "Shall we add a bit more salt?",
+    "lv": "A2",
+    "words": [
+     "w0826",
+     "w0039",
+     "w0004",
+     "w0037",
+     "w0001"
+    ],
+    "marks": [
+     [
+      26,
+      28
+     ]
+    ]
+   },
+   {
+    "id": "p16.5",
+    "src": "s0210",
+    "t": "Peux-tu nager aussi rapidement que lui ?",
+    "en": "Can you swim as fast as he?",
+    "lv": "A2",
+    "words": [
+     "w0028",
+     "w0017",
+     "w0060",
+     "w1062",
+     "w0008",
+     "w0055"
+    ],
+    "marks": [
+     [
+      31,
+      34
+     ]
+    ]
+   },
+   {
+    "id": "p16.6",
+    "src": "s0351",
+    "t": "Jon est beaucoup plus attirant que Tom.",
+    "en": "Jon is far more attractive than Tom.",
+    "lv": "A2",
+    "words": [
+     "w0003",
+     "w0136",
+     "w0037",
+     "w1106",
+     "w0008"
+    ],
+    "marks": [
+     [
+      31,
+      34
+     ]
+    ]
+   },
+   {
+    "id": "p16.7",
+    "src": "s0825",
+    "t": "Mon frère court aussi vite que moi.",
+    "en": "My brother can run as fast as I.",
+    "lv": "A2",
+    "words": [
+     "w0030",
+     "w0271",
+     "w0744",
+     "w0060",
+     "w0267",
+     "w0008",
+     "w0052"
+    ],
+    "marks": [
+     [
+      27,
+      30
+     ]
+    ]
+   },
+   {
+    "id": "p16.8",
+    "src": "s1384",
+    "t": "Tu as plus d'énergie que moi.",
+    "en": "You have more energy than I.",
+    "lv": "A2",
+    "words": [
+     "w0017",
+     "w0005",
+     "w0037",
+     "w0001",
+     "w0927",
+     "w0008",
+     "w0052"
+    ],
+    "marks": [
+     [
+      21,
+      24
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p17",
+  "lv": "A2",
+  "label": "il faut",
+  "en": "it is necessary to",
+  "note": [
+   "It is necessary to; you must.",
+   "Il faut + infinitive. Il me faut du temps."
+  ],
+  "near": [
+   "p02",
+   "p05",
+   "p06",
+   "p07",
+   "p08",
+   "p19"
+  ],
+  "keys": [
+   "w0078"
+  ],
+  "sentences": [
+   {
+    "id": "p17.1",
+    "src": "s2141",
+    "t": "Il nous faut nous dégager d'ici.",
+    "en": "We need to get out of here.",
+    "lv": "A2",
+    "words": [
+     "w0014",
+     "w0039",
+     "w0078",
+     "w1173",
+     "w0001",
+     "w0069"
+    ],
+    "marks": [
+     [
+      8,
+      12
+     ]
+    ]
+   },
+   {
+    "id": "p17.2",
+    "src": "s2297",
+    "t": "Il vous faut choisir votre propre voie.",
+    "en": "You have to choose your own path.",
+    "lv": "A2",
+    "words": [
+     "w0014",
+     "w0018",
+     "w0078",
+     "w0361",
+     "w0057",
+     "w0330",
+     "w0975"
+    ],
+    "marks": [
+     [
+      8,
+      12
+     ]
+    ]
+   },
+   {
+    "id": "p17.3",
+    "src": "s2363",
+    "t": "Il me faut courir.",
+    "en": "I must run.",
+    "lv": "A2",
+    "words": [
+     "w0014",
+     "w0025",
+     "w0078",
+     "w0901"
+    ],
+    "marks": [
+     [
+      6,
+      10
+     ]
+    ]
+   },
+   {
+    "id": "p17.4",
+    "src": "s2433",
+    "t": "Il faut protéger l'unité nationale.",
+    "en": "It is necessary to protect the national unity.",
+    "lv": "A2",
+    "words": [
+     "w0014",
+     "w0078",
+     "w0607",
+     "w0002",
+     "w0991",
+     "w0637"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   },
+   {
+    "id": "p17.5",
+    "src": "s3081",
+    "t": "Il faut toujours viser la première place.",
+    "en": "One should always aim for first place.",
+    "lv": "A2",
+    "words": [
+     "w0014",
+     "w0078",
+     "w0089",
+     "w1299",
+     "w0002",
+     "w0109",
+     "w0197"
+    ],
+    "marks": [
+     [
+      3,
+      7
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p18",
+  "lv": "A2",
+  "label": "passé composé: avoir / être",
+  "en": "past tense with avoir or être",
+  "note": [
+   "Past tense: avoir for most verbs, être for come, go, stay.",
+   "J'ai mangé. Il est allé. Elle est venue. Ils ont fini."
+  ],
+  "near": [
+   "p01"
+  ],
+  "keys": [
+   "w0003",
+   "w0005"
+  ],
+  "sentences": [
+   {
+    "id": "p18.1",
+    "src": "s0674",
+    "t": "Il est arrivé premier de la course.",
+    "en": "He took the first place in the race.",
+    "lv": "A2",
+    "words": [
+     "w0014",
+     "w0003",
+     "w0107",
+     "w0109",
+     "w0001",
+     "w0002",
+     "w1127"
+    ],
+    "marks": [
+     [
+      3,
+      6
+     ]
+    ]
+   },
+   {
+    "id": "p18.2",
+    "src": "s1071",
+    "t": "Elle est arrivée avec une solution potentielle.",
+    "en": "She came up with a possible solution.",
+    "lv": "A2",
+    "words": [
+     "w0036",
+     "w0003",
+     "w0107",
+     "w0032",
+     "w0004",
+     "w0837"
+    ],
+    "marks": [
+     [
+      5,
+      8
+     ]
+    ]
+   },
+   {
+    "id": "p18.3",
+    "src": "s0649",
+    "t": "Il est resté fidèle à ses principes.",
+    "en": "He remained steadfast to his principles.",
+    "lv": "A2",
+    "words": [
+     "w0014",
+     "w0003",
+     "w0112",
+     "w0007",
+     "w0029",
+     "w1250"
+    ],
+    "marks": [
+     [
+      3,
+      6
+     ]
+    ]
+   },
+   {
+    "id": "p18.4",
+    "src": "s2274",
+    "t": "Ils sont allés à la piscine publique.",
+    "en": "They went to the public swimming pool.",
+    "lv": "A2",
+    "words": [
+     "w0049",
+     "w0003",
+     "w0027",
+     "w0007",
+     "w0002",
+     "w0694"
+    ],
+    "marks": [
+     [
+      4,
+      8
+     ]
+    ]
+   },
+   {
+    "id": "p18.5",
+    "src": "s0653",
+    "t": "Il a pris part à la course.",
+    "en": "He took part in the race.",
+    "lv": "A2",
+    "words": [
+     "w0014",
+     "w0005",
+     "w0062",
+     "w0192",
+     "w0007",
+     "w0002",
+     "w1127"
+    ],
+    "marks": [
+     [
+      3,
+      4
+     ]
+    ]
+   },
+   {
+    "id": "p18.6",
+    "src": "s0484",
+    "t": "Il a perdu cet oiseau de vue.",
+    "en": "He lost sight of the bird.",
+    "lv": "A2",
+    "words": [
+     "w0014",
+     "w0005",
+     "w0165",
+     "w0020",
+     "w1301",
+     "w0001",
+     "w0368"
+    ],
+    "marks": [
+     [
+      3,
+      4
+     ]
+    ]
+   },
+   {
+    "id": "p18.7",
+    "src": "s3187",
+    "t": "Ils ont refusé de publier mon livre.",
+    "en": "They refused to publish my book.",
+    "lv": "A2",
+    "words": [
+     "w0049",
+     "w0005",
+     "w0647",
+     "w0001",
+     "w0951",
+     "w0030",
+     "w0312"
+    ],
+    "marks": [
+     [
+      4,
+      7
+     ]
+    ]
+   },
+   {
+    "id": "p18.8",
+    "src": "s2411",
+    "t": "Elles ont accordé une interview au journaliste.",
+    "en": "They granted the journalist an interview.",
+    "lv": "A2",
+    "words": [
+     "w0180",
+     "w0005",
+     "w1229",
+     "w0004",
+     "w0007",
+     "w1095"
+    ],
+    "marks": [
+     [
+      6,
+      9
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p19",
+  "lv": "A2",
+  "label": "devrait (should)",
+  "en": "should, ought to",
+  "note": [
+   "Should, ought to: the form follows the subject.",
+   "je devrais, il devrait, nous devrions + infinitive"
+  ],
+  "near": [
+   "p02",
+   "p05",
+   "p06",
+   "p07",
+   "p08",
+   "p17"
+  ],
+  "keys": [
+   "w0044"
+  ],
+  "sentences": [
+   {
+    "id": "p19.1",
+    "src": "s0173",
+    "t": "On devrait apprendre aux enfants à partager.",
+    "en": "Children should be taught to share.",
+    "lv": "A2",
+    "words": [
+     "w0019",
+     "w0044",
+     "w0263",
+     "w0007",
+     "w0140",
+     "w0666"
+    ],
+    "marks": [
+     [
+      3,
+      10
+     ]
+    ]
+   },
+   {
+    "id": "p19.2",
+    "src": "s0174",
+    "t": "Les enfants devraient jouer à l'extérieur.",
+    "en": "Children should play outside.",
+    "lv": "A2",
+    "words": [
+     "w0002",
+     "w0140",
+     "w0044",
+     "w0156",
+     "w0007",
+     "w1233"
+    ],
+    "marks": [
+     [
+      12,
+      21
+     ]
+    ]
+   },
+   {
+    "id": "p19.3",
+    "src": "s0900",
+    "t": "Tu devrais libérer les animaux de leur cage.",
+    "en": "You should free those animals from the cage.",
+    "lv": "A2",
+    "words": [
+     "w0017",
+     "w0044",
+     "w1122",
+     "w0002",
+     "w0792",
+     "w0001",
+     "w0076"
+    ],
+    "marks": [
+     [
+      3,
+      10
+     ]
+    ]
+   },
+   {
+    "id": "p19.4",
+    "src": "s1632",
+    "t": "Nous devrions respecter les règles de circulation.",
+    "en": "We should obey the traffic rules.",
+    "lv": "A2",
+    "words": [
+     "w0039",
+     "w0044",
+     "w0925",
+     "w0002",
+     "w0696",
+     "w0001"
+    ],
+    "marks": [
+     [
+      5,
+      13
+     ]
+    ]
+   },
+   {
+    "id": "p19.5",
+    "src": "s1453",
+    "t": "Votre famille devrait passer avant votre carrière.",
+    "en": "Your family should come before your career.",
+    "lv": "A2",
+    "words": [
+     "w0057",
+     "w0174",
+     "w0044",
+     "w0072",
+     "w0113",
+     "w1041"
+    ],
+    "marks": [
+     [
+      14,
+      21
+     ]
+    ]
+   },
+   {
+    "id": "p19.6",
+    "src": "s2900",
+    "t": "Les ceintures de sécurité devraient être interdites.",
+    "en": "Seat belts should be banned.",
+    "lv": "A2",
+    "words": [
+     "w0002",
+     "w0001",
+     "w0400",
+     "w0044",
+     "w0003",
+     "w0997"
+    ],
+    "marks": [
+     [
+      26,
+      35
+     ]
+    ]
+   },
+   {
+    "id": "p19.7",
+    "src": "s1086",
+    "t": "Tu devrais le jurer sur la Bible.",
+    "en": "You should swear on the Bible.",
+    "lv": "A2",
+    "words": [
+     "w0017",
+     "w0044",
+     "w0024",
+     "w1029",
+     "w0035",
+     "w0002"
+    ],
+    "marks": [
+     [
+      3,
+      10
+     ]
+    ]
+   },
+   {
+    "id": "p19.8",
+    "src": "s2233",
+    "t": "Je pense que nous devrions engager Tom.",
+    "en": "I think we should hire Tom.",
+    "lv": "A2",
+    "words": [
+     "w0006",
+     "w0079",
+     "w0008",
+     "w0039",
+     "w0044",
+     "w0798"
+    ],
+    "marks": [
+     [
+      18,
+      26
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p20",
+  "lv": "A2",
+  "label": "ne … jamais",
+  "en": "never (ne … jamais)",
+  "note": [
+   "Never: the verb sits between ne and jamais.",
+   "Je ne mens jamais. Il n'est jamais là."
+  ],
+  "near": [
+   "p03",
+   "p16",
+   "p21",
+   "p22"
+  ],
+  "keys": [
+   "w0012",
+   "w0088"
+  ],
+  "sentences": [
+   {
+    "id": "p20.1",
+    "src": "s0118",
+    "t": "Je ne suis jamais libre le dimanche.",
+    "en": "I am never free on Sundays.",
+    "lv": "A2",
+    "words": [
+     "w0006",
+     "w0012",
+     "w0003",
+     "w0088",
+     "w0620",
+     "w0002",
+     "w0511"
+    ],
+    "marks": [
+     [
+      3,
+      5
+     ],
+     [
+      11,
+      17
+     ]
+    ]
+   },
+   {
+    "id": "p20.2",
+    "src": "s0293",
+    "t": "Non, elle n'est jamais tombée amoureuse.",
+    "en": "No, she has never fallen in love.",
+    "lv": "A2",
+    "words": [
+     "w0594",
+     "w0036",
+     "w0012",
+     "w0003",
+     "w0088",
+     "w0253",
+     "w1100"
+    ],
+    "marks": [
+     [
+      16,
+      22
+     ]
+    ]
+   },
+   {
+    "id": "p20.3",
+    "src": "s0380",
+    "t": "Personne n'a jamais vu chose pareille.",
+    "en": "No one ever saw such a thing.",
+    "lv": "A2",
+    "words": [
+     "w0155",
+     "w0012",
+     "w0005",
+     "w0088",
+     "w0048",
+     "w0132",
+     "w0773"
+    ],
+    "marks": [
+     [
+      13,
+      19
+     ]
+    ]
+   },
+   {
+    "id": "p20.4",
+    "src": "s0538",
+    "t": "Je n'ai jamais entendu sa chanson.",
+    "en": "I have never heard her song.",
+    "lv": "A2",
+    "words": [
+     "w0006",
+     "w0012",
+     "w0005",
+     "w0088",
+     "w0162",
+     "w0029",
+     "w0764"
+    ],
+    "marks": [
+     [
+      8,
+      14
+     ]
+    ]
+   },
+   {
+    "id": "p20.5",
+    "src": "s2296",
+    "t": "Il n'a jamais été amoureux auparavant.",
+    "en": "He's never been in love before.",
+    "lv": "A2",
+    "words": [
+     "w0014",
+     "w0012",
+     "w0005",
+     "w0088",
+     "w0003",
+     "w1100"
+    ],
+    "marks": [
+     [
+      7,
+      13
+     ]
+    ]
+   },
+   {
+    "id": "p20.6",
+    "src": "s2331",
+    "t": "Vous ne cessez jamais de me surprendre.",
+    "en": "You never cease to surprise me.",
+    "lv": "A2",
+    "words": [
+     "w0018",
+     "w0012",
+     "w0998",
+     "w0088",
+     "w0001",
+     "w0025",
+     "w1214"
+    ],
+    "marks": [
+     [
+      5,
+      7
+     ],
+     [
+      15,
+      21
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p21",
+  "lv": "B1",
+  "label": "qui / que",
+  "en": "who, which / that, which (relative)",
+  "note": [
+   "qui: who, which as the doer. que: which as the object.",
+   "L'homme qui parle. Le livre que je lis."
+  ],
+  "near": [
+   "p16",
+   "p22",
+   "p23"
+  ],
+  "keys": [
+   "w0021",
+   "w0008"
+  ],
+  "sentences": [
+   {
+    "id": "p21.1",
+    "src": "s2939",
+    "t": "J'ai un oncle qui vit à Boston.",
+    "en": "I have an uncle who lives in Boston.",
+    "lv": "B1",
+    "words": [
+     "w0006",
+     "w0005",
+     "w0004",
+     "w1353",
+     "w0021",
+     "w0160",
+     "w0007"
+    ],
+    "marks": [
+     [
+      14,
+      17
+     ]
+    ]
+   },
+   {
+    "id": "p21.2",
+    "src": "s3085",
+    "t": "Ceux qui savent lire ont un net avantage.",
+    "en": "Those who can read have a clear advantage.",
+    "lv": "B1",
+    "words": [
+     "w0106",
+     "w0021",
+     "w0046",
+     "w0255",
+     "w0005",
+     "w0004",
+     "w1768",
+     "w1329"
+    ],
+    "marks": [
+     [
+      5,
+      8
+     ]
+    ]
+   },
+   {
+    "id": "p21.3",
+    "src": "s1542",
+    "t": "Celui qui commet l'erreur subit les conséquences.",
+    "en": "He who makes the mistake bears the consequences.",
+    "lv": "B1",
+    "words": [
+     "w0106",
+     "w0021",
+     "w1337",
+     "w0002",
+     "w0640",
+     "w1364",
+     "w1365"
+    ],
+    "marks": [
+     [
+      6,
+      9
+     ]
+    ]
+   },
+   {
+    "id": "p21.4",
+    "src": "s1333",
+    "t": "Ceux qui violent les lois seront punis.",
+    "en": "Those who violate the rules will be punished.",
+    "lv": "B1",
+    "words": [
+     "w0106",
+     "w0021",
+     "w1631",
+     "w0002",
+     "w0336",
+     "w0003",
+     "w1961"
+    ],
+    "marks": [
+     [
+      5,
+      8
+     ]
+    ]
+   },
+   {
+    "id": "p21.5",
+    "src": "s1435",
+    "t": "Identifie les mots que tu ne comprends pas.",
+    "en": "Mark the words that you cannot understand.",
+    "lv": "B1",
+    "words": [
+     "w1468",
+     "w0002",
+     "w0251",
+     "w0008",
+     "w0017",
+     "w0012",
+     "w0129",
+     "w0010"
+    ],
+    "marks": [
+     [
+      19,
+      22
+     ]
+    ]
+   },
+   {
+    "id": "p21.6",
+    "src": "s0958",
+    "t": "C'est la structure la plus massive que j'ai jamais vue.",
+    "en": "This is the most massive structure I have ever seen.",
+    "lv": "B1",
+    "words": [
+     "w0011",
+     "w0003",
+     "w0002",
+     "w1841",
+     "w0008",
+     "w0006",
+     "w0005",
+     "w0088",
+     "w0048"
+    ],
+    "marks": [
+     [
+      35,
+      38
+     ]
+    ]
+   },
+   {
+    "id": "p21.7",
+    "src": "s1287",
+    "t": "Faites-vous ce que vous estimez être juste ?",
+    "en": "Are you doing what you think is right?",
+    "lv": "B1",
+    "words": [
+     "w0016",
+     "w0018",
+     "w0008",
+     "w0011",
+     "w1376",
+     "w0003",
+     "w0101"
+    ],
+    "marks": [
+     [
+      15,
+      18
+     ]
+    ]
+   },
+   {
+    "id": "p21.8",
+    "src": "s1358",
+    "t": "Tout ce que vous dites est parfaitement correct.",
+    "en": "All that you say is perfectly correct.",
+    "lv": "B1",
+    "words": [
+     "w0045",
+     "w0011",
+     "w0008",
+     "w0018",
+     "w0034",
+     "w0003",
+     "w1398"
+    ],
+    "marks": [
+     [
+      8,
+      11
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p22",
+  "lv": "B1",
+  "label": "que + subjunctive",
+  "en": "that, so that, before (subjunctive)",
+  "note": [
+   "que links a wish, aim or time to a subjunctive verb.",
+   "Je veux que tu viennes. Avant que ce soit tard."
+  ],
+  "near": [
+   "p16",
+   "p21"
+  ],
+  "keys": [
+   "w0008"
+  ],
+  "sentences": [
+   {
+    "id": "p22.1",
+    "src": "s0495",
+    "t": "Je veux que tu ranges la pièce rapidement.",
+    "en": "I want you to put the room in order quickly.",
+    "lv": "B1",
+    "words": [
+     "w0006",
+     "w0041",
+     "w0008",
+     "w0017",
+     "w1729",
+     "w0002",
+     "w0392",
+     "w1062"
+    ],
+    "marks": [
+     [
+      8,
+      11
+     ]
+    ]
+   },
+   {
+    "id": "p22.2",
+    "src": "s1079",
+    "t": "Il fait trop sombre pour que je lise.",
+    "en": "It is too dark for me to read.",
+    "lv": "B1",
+    "words": [
+     "w0014",
+     "w0016",
+     "w0120",
+     "w1745",
+     "w0015",
+     "w0008",
+     "w0006",
+     "w0255"
+    ],
+    "marks": [
+     [
+      25,
+      28
+     ]
+    ]
+   },
+   {
+    "id": "p22.3",
+    "src": "s2827",
+    "t": "Il est possible que Tom soit un génie.",
+    "en": "It's possible that Tom is a genius.",
+    "lv": "B1",
+    "words": [
+     "w0014",
+     "w0003",
+     "w0289",
+     "w0008",
+     "w0004",
+     "w1533"
+    ],
+    "marks": [
+     [
+      16,
+      19
+     ]
+    ]
+   },
+   {
+    "id": "p22.4",
+    "src": "s3078",
+    "t": "Je suggère que nous prenions une nouvelle approche.",
+    "en": "I suggest that we take a new approach.",
+    "lv": "B1",
+    "words": [
+     "w0006",
+     "w1707",
+     "w0008",
+     "w0039",
+     "w0062",
+     "w0004",
+     "w0104",
+     "w1911"
+    ],
+    "marks": [
+     [
+      11,
+      14
+     ]
+    ]
+   },
+   {
+    "id": "p22.5",
+    "src": "s3161",
+    "t": "On devrait l'enfermer avant que ce soit trop tard.",
+    "en": "We should lock him up before it's too late.",
+    "lv": "B1",
+    "words": [
+     "w0019",
+     "w0044",
+     "w0024",
+     "w1739",
+     "w0113",
+     "w0008",
+     "w0011",
+     "w0003",
+     "w0120",
+     "w0269"
+    ],
+    "marks": [
+     [
+      28,
+      31
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p23",
+  "lv": "B1",
+  "label": "le / lui",
+  "en": "him, it / to him, to her",
+  "note": [
+   "le: him or it. lui: to him or to her.",
+   "Je le vois. Je lui parle. Je lui donne un livre."
+  ],
+  "near": [
+   "p03",
+   "p20"
+  ],
+  "keys": [
+   "w0024",
+   "w0055"
+  ],
+  "sentences": [
+   {
+    "id": "p23.1",
+    "src": "s0298",
+    "t": "Chaque fois que je le vois, il sourit.",
+    "en": "Every time I see him, he is smiling.",
+    "lv": "B1",
+    "words": [
+     "w0215",
+     "w0108",
+     "w0008",
+     "w0006",
+     "w0024",
+     "w0048",
+     "w0014",
+     "w1508"
+    ],
+    "marks": [
+     [
+      19,
+      21
+     ]
+    ]
+   },
+   {
+    "id": "p23.2",
+    "src": "s0249",
+    "t": "J'ai tout essayé pour le maintenir en vie.",
+    "en": "I tried everything to keep him alive.",
+    "lv": "B1",
+    "words": [
+     "w0006",
+     "w0005",
+     "w0064",
+     "w0178",
+     "w0015",
+     "w0024",
+     "w1413",
+     "w0013",
+     "w0105"
+    ],
+    "marks": [
+     [
+      22,
+      24
+     ]
+    ]
+   },
+   {
+    "id": "p23.3",
+    "src": "s3064",
+    "t": "Les anciens décidèrent de le chasser du village.",
+    "en": "The elders decided to expel him from the village.",
+    "lv": "B1",
+    "words": [
+     "w0002",
+     "w0371",
+     "w0001",
+     "w0024",
+     "w1868",
+     "w0938"
+    ],
+    "marks": [
+     [
+      26,
+      28
+     ]
+    ]
+   },
+   {
+    "id": "p23.4",
+    "src": "s0066",
+    "t": "Vous pouvez lui confier n'importe quel travail.",
+    "en": "You can trust him with any job.",
+    "lv": "B1",
+    "words": [
+     "w0018",
+     "w0028",
+     "w0055",
+     "w1551",
+     "w0012",
+     "w0302",
+     "w0147",
+     "w0152"
+    ],
+    "marks": [
+     [
+      12,
+      15
+     ]
+    ]
+   },
+   {
+    "id": "p23.5",
+    "src": "s0723",
+    "t": "Il lui a donné une feuille de papier.",
+    "en": "He gave her a piece of paper.",
+    "lv": "B1",
+    "words": [
+     "w0014",
+     "w0055",
+     "w0005",
+     "w0094",
+     "w0004",
+     "w1708",
+     "w0001",
+     "w0496"
+    ],
+    "marks": [
+     [
+      3,
+      6
+     ]
+    ]
+   },
+   {
+    "id": "p23.6",
+    "src": "s0652",
+    "t": "Il me demanda de lui renvoyer la balle.",
+    "en": "He asked me to throw the ball back.",
+    "lv": "B1",
+    "words": [
+     "w0014",
+     "w0025",
+     "w0117",
+     "w0001",
+     "w0055",
+     "w1452",
+     "w0002",
+     "w0825"
+    ],
+    "marks": [
+     [
+      17,
+      20
+     ]
+    ]
+   },
+   {
+    "id": "p23.7",
+    "src": "s0950",
+    "t": "Quelques camarades me virent lui donner du chocolat.",
+    "en": "Some classmates saw me give him chocolate.",
+    "lv": "B1",
+    "words": [
+     "w0098",
+     "w1981",
+     "w0025",
+     "w0048",
+     "w0055",
+     "w0094",
+     "w0001",
+     "w1740"
+    ],
+    "marks": [
+     [
+      29,
+      32
+     ]
+    ]
+   },
+   {
+    "id": "p23.8",
+    "src": "s1721",
+    "t": "Une idée brillante lui vint à l'esprit.",
+    "en": "He hit on a splendid idea.",
+    "lv": "B1",
+    "words": [
+     "w0004",
+     "w0201",
+     "w1738",
+     "w0055",
+     "w0059",
+     "w0007",
+     "w0002",
+     "w0438"
+    ],
+    "marks": [
+     [
+      19,
+      22
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p24",
+  "lv": "B1",
+  "label": "si / quand",
+  "en": "if / when",
+  "note": [
+   "si: if, sets a condition. quand: when, gives a time.",
+   "Si tu veux, viens. Il part quand il veut."
+  ],
+  "keys": [
+   "w0038",
+   "w0058"
+  ],
+  "sentences": [
+   {
+    "id": "p24.1",
+    "src": "s1234",
+    "t": "Que ferais-tu si tu voyais un fantôme ?",
+    "en": "What would you do if you saw a ghost?",
+    "lv": "B1",
+    "words": [
+     "w0008",
+     "w0016",
+     "w0017",
+     "w0038",
+     "w0048",
+     "w0004",
+     "w1856"
+    ],
+    "marks": [
+     [
+      14,
+      16
+     ]
+    ]
+   },
+   {
+    "id": "p24.2",
+    "src": "s1418",
+    "t": "Si c'était à refaire, je le referais !",
+    "en": "If I had to do it again, I would!",
+    "lv": "B1",
+    "words": [
+     "w0038",
+     "w0011",
+     "w0003",
+     "w0007",
+     "w1505",
+     "w0006",
+     "w0024"
+    ],
+    "marks": [
+     [
+      0,
+      2
+     ]
+    ]
+   },
+   {
+    "id": "p24.3",
+    "src": "s2462",
+    "t": "Si tu veux être mince, suis ce régime.",
+    "en": "If you want to be slim, follow this diet.",
+    "lv": "B1",
+    "words": [
+     "w0038",
+     "w0017",
+     "w0041",
+     "w0003",
+     "w1971",
+     "w0020",
+     "w1488"
+    ],
+    "marks": [
+     [
+      0,
+      2
+     ]
+    ]
+   },
+   {
+    "id": "p24.4",
+    "src": "s0049",
+    "t": "J'allais sortir quand le téléphone a sonné.",
+    "en": "I was about to go out when the phone rang.",
+    "lv": "B1",
+    "words": [
+     "w0006",
+     "w0027",
+     "w0127",
+     "w0058",
+     "w0002",
+     "w0468",
+     "w0005",
+     "w1525"
+    ],
+    "marks": [
+     [
+      16,
+      21
+     ]
+    ]
+   },
+   {
+    "id": "p24.5",
+    "src": "s0703",
+    "t": "Il leva son chapeau quand il me vit.",
+    "en": "He raised his hat when he saw me.",
+    "lv": "B1",
+    "words": [
+     "w0014",
+     "w0029",
+     "w1705",
+     "w0058",
+     "w0025",
+     "w0048"
+    ],
+    "marks": [
+     [
+      20,
+      25
+     ]
+    ]
+   },
+   {
+    "id": "p24.6",
+    "src": "s2352",
+    "t": "Quand avez-vous eu votre dernier rapport sexuel ?",
+    "en": "When did you last have sexual intercourse?",
+    "lv": "B1",
+    "words": [
+     "w0058",
+     "w0005",
+     "w0018",
+     "w0057",
+     "w0131",
+     "w0318",
+     "w1170"
+    ],
+    "marks": [
+     [
+      0,
+      5
+     ]
+    ]
+   },
+   {
+    "id": "p24.7",
+    "src": "s0563",
+    "t": "Faites-moi savoir quand vous recevrez le paquet.",
+    "en": "Let me know when you get the package.",
+    "lv": "B1",
+    "words": [
+     "w0016",
+     "w0052",
+     "w0046",
+     "w0058",
+     "w0018",
+     "w0296",
+     "w0002",
+     "w1791"
+    ],
+    "marks": [
+     [
+      18,
+      23
+     ]
+    ]
+   }
+  ]
+ }
+]
