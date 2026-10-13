@@ -135,19 +135,9 @@
   },
   "showPron": false,
   "hasLessons": false,
-  "dayAware": true,
   "typedFrom": [
     "written"
   ],
-  "glossFocus": true,
-  "glossStyle": "primary",
-  "helpClose": true,
-  "readAnswerBlock": true,
-  "optsMix": true,
-  "pauseNew": true,
-  "listenQuestions": "all",
-  "readRotation": true,
-  "wordsBy": "typed",
   "progressMap": {
     "goals": [
       {
@@ -164,15 +154,6 @@
       }
     ]
   },
-  "pairs": true,
-  "freqTiers": true,
-  "progressView": "v2",
-  "appView": "v2",
-  "levelGate": 0.7,
-  "placementWhole": true,
-  "placementEarlyStop": true,
-  "placedRead": true,
-  "placedKnown": true,
   "gapGender": true,
   "eta": {
     "curve": [
@@ -257,75 +238,75 @@
       [
         [
           0,
-          283.7
+          290.7
         ],
         [
           0.05,
-          257.3
+          264.3
         ],
         [
           0.1,
-          227.7
+          234.7
         ],
         [
           0.15,
-          221.7
+          228.7
         ],
         [
           0.2,
-          214.3
+          221.3
         ],
         [
           0.25,
-          206.7
+          213.7
         ],
         [
           0.3,
-          199
+          206
         ],
         [
           0.35,
-          191.3
+          198.3
         ],
         [
           0.4,
-          137
+          144
         ],
         [
           0.45,
-          130
+          137
         ],
         [
           0.5,
-          124.7
+          131.7
         ],
         [
           0.55,
-          118.7
+          125.7
         ],
         [
           0.6,
-          112.3
+          119.3
         ],
         [
           0.65,
-          105.3
+          112.3
         ],
         [
           0.7,
-          98.3
+          105.3
         ],
         [
           0.75,
-          89
+          96
         ],
         [
           0.8,
-          80
+          87
         ],
         [
           0.85,
-          71
+          78
         ],
         [
           0.9,
