@@ -10,7 +10,7 @@ words = the builder's word count (the band rule); ws_words = whitespace-separate
 tokens of the passage text, the count the app shows (report only).
 
 - **A1**: 20 passages; words/passage 64-90 (median 82.0); ws_words 65-109; coverage min 1.000, median 1.000 (rule >= 0.95); linked min 1.000; questions mc 50, tf 47
-- **A2**: 30 passages; words/passage 96-120 (median 111.0); ws_words 96-132; coverage min 0.970, median 1.000 (rule >= 0.95); linked min 0.970; questions mc 85, tf 62
+- **A2**: 30 passages; words/passage 96-120 (median 110.5); ws_words 96-132; coverage min 0.970, median 1.000 (rule >= 0.95); linked min 0.970; questions mc 85, tf 62
 - **B1**: 30 passages; words/passage 110-150 (median 142.0); ws_words 112-159; coverage min 0.992, median 1.000 (rule >= 0.93); linked min 0.992; questions mc 88, tf 62
 
 | id | lv | title | words | ws_words | coverage | linked | out-of-pack lemmas (reason) | higher-level lemmas |
@@ -79,21 +79,21 @@ tokens of the passage text, the count the app shows (report only).
 | p0062 | A2 | Une journée dans le nord | 106 | 107 | 1.000 | 1.000 | - | B1: vélo |
 | p0063 | A2 | Avis : un samedi sans voitures | 118 | 117 | 1.000 | 1.000 | - | - |
 | p0064 | A2 | Un samedi au club | 102 | 116 | 1.000 | 1.000 | - | B1: après-midi, hésiter |
-| p0065 | A2 | Mon voyage dans le sud | 111 | 111 | 1.000 | 1.000 | - | B1: taxi |
+| p0065 | A2 | Mon voyage dans le sud | 110 | 111 | 1.000 | 1.000 | - | B1: taxi |
 | p0066 | A2 | Le secret de grand-père | 103 | 104 | 1.000 | 1.000 | - | B1: centaine, collection, jardin |
 | p0067 | A2 | Un vol en retard | 103 | 105 | 1.000 | 1.000 | - | B1: aéroport, pilote |
 | p0068 | A2 | Mon pote au restaurant | 96 | 96 | 1.000 | 1.000 | - | B1: repas |
 | p0069 | A2 | Une idée géniale | 111 | 116 | 1.000 | 1.000 | - | B1: ranger |
 | p0070 | A2 | Avis sur le café du coin | 103 | 106 | 1.000 | 1.000 | - | - |
 | p0071 | B1 | Travailler à la maison | 137 | 138 | 1.000 | 1.000 | - | - |
-| p0072 | B1 | Un voisin qui parle beaucoup | 134 | 140 | 1.000 | 1.000 | - | - |
+| p0072 | B1 | Dans le même appartement | 134 | 140 | 1.000 | 1.000 | - | - |
 | p0073 | B1 | Commande en retard | 110 | 112 | 1.000 | 1.000 | - | - |
 | p0074 | B1 | Rencontre avec une jeune pilote | 133 | 135 | 1.000 | 1.000 | - | - |
 | p0075 | B1 | Une exposition près de chez nous | 123 | 124 | 1.000 | 1.000 | - | - |
-| p0076 | B1 | Un problème sur la route | 139 | 137 | 1.000 | 1.000 | - | - |
+| p0076 | B1 | Un problème sur la route | 137 | 137 | 1.000 | 1.000 | - | - |
 | p0077 | B1 | Le club de lecture | 134 | 135 | 1.000 | 1.000 | - | - |
 | p0078 | B1 | Mon premier festival | 132 | 132 | 1.000 | 1.000 | - | - |
-| p0079 | B1 | La légende du loup | 148 | 146 | 1.000 | 1.000 | - | - |
+| p0079 | B1 | La légende du loup | 150 | 148 | 1.000 | 1.000 | - | - |
 | p0080 | B1 | Un entretien pour un nouvel emploi | 137 | 148 | 1.000 | 1.000 | - | - |
 
 Title words, and question/option words the budget does not count (a numeral-like

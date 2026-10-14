@@ -7412,8 +7412,7 @@
      ],
      "answer": 2,
      "words": [
-      "revoir",
-      "bientôt"
+      "garder"
      ],
      "sentence": 7
     }
@@ -7794,8 +7793,8 @@
      "Tuesday. I walked by the sea, and I bought a little card with a boat on it."
     ],
     [
-     "Je l'ai envoyée à ma grand-mère : elle aime beaucoup les lettres.",
-     "I sent it to my grandmother: she loves letters."
+     "Je l'ai envoyée à mon frère : il aime beaucoup les lettres.",
+     "I sent it to my brother: he loves letters."
     ],
     [
      "Mercredi. Il a fait très chaud, donc j'ai passé la journée sur la plage.",
@@ -7821,9 +7820,9 @@
      "type": "mc",
      "options": [
       "Il faisait très froid",
-      "Son sac était trop gros",
-      "Elle était très en retard",
-      "Elle avait très faim"
+      "Mon sac était trop gros",
+      "J'étais très en retard",
+      "J'avais très faim"
      ],
      "answer": 1,
      "words": [
@@ -7833,8 +7832,8 @@
      "sentence": 1
     },
     {
-     "q": "J'ai envoyé une carte à ma grand-mère.",
-     "en": "I sent a card to my grandmother.",
+     "q": "J'ai envoyé une carte à mon frère.",
+     "en": "I sent a card to my brother.",
      "type": "tf",
      "options": null,
      "answer": true,
@@ -7844,14 +7843,14 @@
      "sentence": 3
     },
     {
-     "q": "Que fait-elle mercredi ?",
-     "en": "What does she do on Wednesday?",
+     "q": "Que fais-je mercredi ?",
+     "en": "What do I do on Wednesday?",
      "type": "mc",
      "options": [
-      "Elle travaille à l'hôtel",
-      "Elle prend le train",
-      "Elle voit sa grand-mère",
-      "Elle reste sur la plage"
+      "Je travaille à l'hôtel",
+      "Je prends le train",
+      "Je vois mon frère",
+      "Je reste sur la plage"
      ],
      "answer": 3,
      "words": [
@@ -7861,8 +7860,8 @@
      "sentence": 4
     },
     {
-     "q": "Elle reste quatre jours à Marseille.",
-     "en": "She stays four days in Marseille.",
+     "q": "Je reste à Marseille jeudi soir.",
+     "en": "I stay in Marseille on Thursday evening.",
      "type": "tf",
      "options": null,
      "answer": false,
@@ -8016,8 +8015,8 @@
      "A man sitting next to me was reading the newspaper."
     ],
     [
-     "Nous avons commencé à parler, et j'ai appris qu'il était pilote.",
-     "We began to talk, and I learned that he was a pilot."
+     "Nous avons commencé à parler, et j'ai appris qu'il était journaliste.",
+     "We began to talk, and I learned that he was a journalist."
     ],
     [
      "Il m'a expliqué pourquoi les avions ont parfois du retard : le temps, le vent, ou un petit problème.",
@@ -8071,13 +8070,13 @@
      "type": "mc",
      "options": [
       "Médecin",
-      "Journaliste",
       "Pilote",
+      "Journaliste",
       "Professeur"
      ],
      "answer": 2,
      "words": [
-      "pilote"
+      "journaliste"
      ],
      "sentence": 4
     },
@@ -8231,7 +8230,7 @@
     ],
     [
      "Elle a fait une grande carte avec des zones de couleurs différentes : le lit, les livres, les jeux.",
-     "She made a big map with zones of different colours: the bed, the books, the games."
+     "She made a big chart with zones of different colours: the bed, the books, the games."
     ],
     [
      "« Chaque objet a sa place », a-t-elle dit, « et tu dois le remettre dans la bonne zone. »",
@@ -8288,10 +8287,10 @@
      "en": "What does the little girl think of the idea?",
      "type": "mc",
      "options": [
-      "Elle est triste",
-      "Elle est difficile",
-      "Elle est drôle",
-      "Elle est trop longue"
+      "Elle la trouve difficile",
+      "Elle la trouve trop longue",
+      "Elle la trouve drôle",
+      "Elle la trouve trop petite"
      ],
      "answer": 2,
      "words": [
@@ -8420,8 +8419,8 @@
      "sentence": 5
     },
     {
-     "q": "Lucie pense retourner dans ce café.",
-     "en": "Lucie plans to go back to this café.",
+     "q": "L'auteur pense retourner dans ce café.",
+     "en": "The author plans to go back to this café.",
      "type": "tf",
      "options": null,
      "answer": true,
@@ -8559,7 +8558,7 @@
   {
    "id": "p0072",
    "lv": "B1",
-   "title": "Un voisin qui parle beaucoup",
+   "title": "Dans le même appartement",
    "oop": {},
    "names": [
     "Sami",
@@ -8714,8 +8713,8 @@
      "I therefore ask you to send me my order immediately, or to give me my money back."
     ],
     [
-     "Sans réponse de votre part d'ici une semaine, je parlerai à une association.",
-     "Without a reply from you within a week, I will speak to an association."
+     "Sans réponse de votre part d'ici une semaine, je demanderai l'aide d'une association.",
+     "Without a reply from you within a week, I will ask an association for help."
     ],
     [
      "Dans l'attente de votre réponse, je vous remercie.",
@@ -8843,7 +8842,7 @@
      "What she likes best is the view: the sun rising, the sea in the distance."
     ],
     [
-     "Quand on lui demande si elle rêve de conduire un jour un très grand avion, elle sourit.",
+     "Quand on lui demande si elle rêve d'être un jour pilote d'un très grand avion, elle sourit.",
      "When asked whether she dreams of one day flying a very big plane, she smiles."
     ],
     [
@@ -9063,8 +9062,8 @@
      "On Sunday morning Nadia was driving along the country road with her two children."
     ],
     [
-     "Ils allaient voir leur grand-mère, qui habite à deux cents kilomètres de chez eux.",
-     "They were going to see their grandmother, who lives two hundred kilometres from them."
+     "Ils allaient voir leur tante, qui habite à deux cents kilomètres de chez eux.",
+     "They were going to see their aunt, who lives two hundred kilometres from them."
     ],
     [
      "Mais un bruit étrange est sorti du moteur, et la voiture s'est arrêtée au bord de la route.",
@@ -9095,8 +9094,8 @@
      "After an hour the car was working again, and the family was able to set off."
     ],
     [
-     "Arrivée chez sa grand-mère, Nadia a raconté toute l'histoire, et tout le monde a ri.",
-     "Arriving at her grandmother's, Nadia told the whole story, and everyone laughed."
+     "Arrivée chez sa tante, Nadia a raconté toute l'histoire, et tout le monde a ri.",
+     "Arriving at her aunt's, Nadia told the whole story, and everyone laughed."
     ]
    ],
    "questions": [
@@ -9107,12 +9106,13 @@
      "options": [
       "Au bord de la mer, en famille",
       "À l'école de leurs cousins",
-      "Chez leur grand-mère",
+      "Chez leur tante",
       "À la gare du village"
      ],
      "answer": 2,
      "words": [
-      "kilomètre"
+      "tante",
+      "habiter"
      ],
      "sentence": 1
     },
@@ -9250,7 +9250,7 @@
      "sentence": 2
     },
     {
-     "q": "Que pensent certains du personnage principal ?",
+     "q": "Que pensent d'autres du personnage principal ?",
      "en": "What do some readers think of the main character?",
      "type": "mc",
      "options": [
@@ -9437,8 +9437,8 @@
      "When I was a child my grandmother told me every winter the legend of the wolf of the forest."
     ],
     [
-     "Selon cette histoire, il y a très longtemps, un village vivait au bord d'une grande forêt.",
-     "According to this story, a very long time ago, a village lived at the edge of a big forest."
+     "Selon cette histoire, il y a très longtemps, il y avait un village au bord d'une grande forêt.",
+     "According to this story, a very long time ago, there was a village at the edge of a big forest."
     ],
     [
      "Un hiver, la neige est tombée pendant plusieurs semaines, et les habitants n'avaient presque plus de nourriture.",
