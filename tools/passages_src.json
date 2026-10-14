@@ -7298,6 +7298,2380 @@
      "sentence": 7
     }
    ]
+  },
+  {
+   "id": "p0061",
+   "lv": "A2",
+   "title": "Un bébé chez les voisins",
+   "oop": {},
+   "names": [
+    "Hugo"
+   ],
+   "sentences": [
+    [
+     "Depuis lundi, il y a un bébé chez nos voisins.",
+     "Since Monday there has been a baby at our neighbours'."
+    ],
+    [
+     "Mes voisins, un jeune couple, l'ont ramené de l'hôpital avec beaucoup de bonheur.",
+     "My neighbours, a young couple, brought him home from the hospital with great happiness."
+    ],
+    [
+     "Il s'appelle Hugo, et il a une petite voix très douce.",
+     "His name is Hugo, and he has a very soft little voice."
+    ],
+    [
+     "La nuit, il pleure souvent, et sa mère peut à peine dormir.",
+     "At night he often cries, and his mother can hardly sleep."
+    ],
+    [
+     "Hier, je suis allé chez eux pour leur apporter un cadeau.",
+     "Yesterday I went to their place to bring them a present."
+    ],
+    [
+     "Le père m'a dit : « Merci, c'est gentil ! Viens un instant, tu vas voir Hugo. »",
+     "The father said to me: \"Thank you, that's kind! Come for a moment, you'll see Hugo.\""
+    ],
+    [
+     "Quand j'ai regardé son visage, j'ai été très content : il ressemble à sa mère, avec de grands yeux et un petit nez.",
+     "When I looked at his face I was very happy: he looks like his mother, with big eyes and a small nose."
+    ],
+    [
+     "Je vais bientôt les revoir, car ils veulent que je garde le bébé un soir.",
+     "I will see them again soon, because they want me to look after the baby one evening."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Qu'est-ce que j'ai apporté à mes voisins ?",
+     "en": "What did I bring my neighbours?",
+     "type": "mc",
+     "options": [
+      "Un cadeau",
+      "Des fleurs",
+      "Du pain",
+      "Un livre"
+     ],
+     "answer": 0,
+     "words": [
+      "apporter",
+      "cadeau"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Hugo a une voix très forte.",
+     "en": "Hugo has a very loud voice.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "voix",
+      "doux"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "La mère de Hugo dort très bien la nuit.",
+     "en": "Hugo's mother sleeps very well at night.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "à peine",
+      "dormir"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "À qui ressemble Hugo ?",
+     "en": "Who does Hugo look like?",
+     "type": "mc",
+     "options": [
+      "À son père",
+      "À son frère",
+      "À sa sœur",
+      "À sa mère"
+     ],
+     "answer": 3,
+     "words": [
+      "visage",
+      "ressembler"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Que veulent mes voisins pour un soir ?",
+     "en": "What do my neighbours want for one evening?",
+     "type": "mc",
+     "options": [
+      "Aller au restaurant tous les trois",
+      "Sortir leur chien le soir",
+      "Que je garde le bébé",
+      "Inviter des amis chez nous"
+     ],
+     "answer": 2,
+     "words": [
+      "revoir",
+      "bientôt"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0062",
+   "lv": "A2",
+   "title": "Une journée dans le nord",
+   "oop": {},
+   "names": [
+    "Marc",
+    "Lille"
+   ],
+   "sentences": [
+    [
+     "Samedi dernier, Marc et moi, nous avons décidé de faire une longue marche dans le nord.",
+     "Last Saturday Marc and I decided to go on a long walk in the north."
+    ],
+    [
+     "Nous avons pris le train jusqu'à Lille, puis nous avons suivi un chemin dans les champs.",
+     "We took the train to Lille, then followed a path through the fields."
+    ],
+    [
+     "Après une heure, nous avons traversé un petit pont.",
+     "After an hour we crossed a small bridge."
+    ],
+    [
+     "Le soleil était là, mais il y avait un peu de vent, et nous avions un peu froid.",
+     "The sun was out, but there was a bit of wind, and we were a little cold."
+    ],
+    [
+     "À midi, nous avons mangé au milieu d'un bois, assis sur de grosses pierres.",
+     "At noon we ate in the middle of a wood, sitting on big stones."
+    ],
+    [
+     "Pendant la marche, j'ai pris beaucoup de photos de la nature.",
+     "During the walk I took lots of photos of nature."
+    ],
+    [
+     "Nous avons fait environ vingt kilomètres, et le soir, j'avais mal aux pieds !",
+     "We walked about twenty kilometres, and in the evening my feet hurt!"
+    ],
+    [
+     "C'était long, mais nous avons passé une journée magnifique.",
+     "It was long, but we spent a wonderful day."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Comment Marc et moi sommes-nous allés à Lille ?",
+     "en": "How did Marc and I get to Lille?",
+     "type": "mc",
+     "options": [
+      "En voiture",
+      "En train",
+      "À vélo",
+      "En avion"
+     ],
+     "answer": 1,
+     "words": [
+      "train"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Nous avons traversé un pont.",
+     "en": "We crossed a bridge.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "traverser",
+      "pont"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Où avons-nous mangé à midi ?",
+     "en": "Where did we eat at noon?",
+     "type": "mc",
+     "options": [
+      "Au milieu d'un bois",
+      "Dans un petit restaurant",
+      "Sur la plage, près de l'eau",
+      "Chez un ami à Lille"
+     ],
+     "answer": 0,
+     "words": [
+      "milieu",
+      "bois"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Nous avons marché environ deux kilomètres.",
+     "en": "We walked about two kilometres.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "kilomètre"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Comment était la journée, selon moi ?",
+     "en": "How was the day, in my opinion?",
+     "type": "mc",
+     "options": [
+      "Plutôt triste",
+      "Magnifique",
+      "Très difficile",
+      "Très froide"
+     ],
+     "answer": 1,
+     "words": [
+      "magnifique"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0063",
+   "lv": "A2",
+   "title": "Avis : un samedi sans voitures",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "Samedi prochain, la grande rue du centre sera fermée aux voitures de huit heures à dix-huit heures.",
+     "Next Saturday the main street in the centre will be closed to cars from eight to six."
+    ],
+    [
+     "Il y aura un marché, de la musique et un spectacle pour les enfants sur la place.",
+     "There will be a market, music and a show for children on the square."
+    ],
+    [
+     "Pour votre sécurité, il est interdit de laisser sa voiture dans cette rue ce jour-là.",
+     "For your safety, it is forbidden to leave your car in this street that day."
+    ],
+    [
+     "Les bus ne passeront pas par le centre, mais vous pouvez les prendre à l'arrêt près de la gare.",
+     "The buses will not go through the centre, but you can take them at the stop near the station."
+    ],
+    [
+     "Si vous avez un problème ou une question, appelez le numéro indiqué sur ce papier.",
+     "If you have a problem or a question, call the number given on this paper."
+    ],
+    [
+     "Le bruit sera peut-être fort le soir, et nous vous prions de bien vouloir nous excuser.",
+     "The noise may be loud in the evening, and we ask you to please excuse us."
+    ],
+    [
+     "Nous vous attendons nombreux : c'est une belle occasion de voir vos voisins !",
+     "We look forward to seeing many of you: it is a nice chance to see your neighbours!"
+    ],
+    [
+     "Merci de votre attention.",
+     "Thank you for your attention."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Quel jour la rue sera-t-elle fermée aux voitures ?",
+     "en": "Which day will the street be closed to cars?",
+     "type": "mc",
+     "options": [
+      "Le samedi",
+      "Le dimanche",
+      "Le lundi",
+      "Le vendredi"
+     ],
+     "answer": 0,
+     "words": [
+      "fermer"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Les bus passeront par le centre comme d'habitude.",
+     "en": "The buses will go through the centre as usual.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "bus",
+      "passer"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Qu'est-ce qu'il y aura sur la place ?",
+     "en": "What will there be on the square?",
+     "type": "mc",
+     "options": [
+      "Un grand match sur la place",
+      "Un marché et de la musique",
+      "Un cinéma pour les enfants",
+      "Une course dans toute la rue"
+     ],
+     "answer": 1,
+     "words": [
+      "spectacle",
+      "marché"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Ce jour-là, les voitures peuvent rester dans la rue.",
+     "en": "That day cars can stay in the street.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "interdire",
+      "voiture"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Que faire en cas de problème ?",
+     "en": "What should you do if there is a problem?",
+     "type": "mc",
+     "options": [
+      "Appeler le numéro indiqué",
+      "Aller à la gare à pied",
+      "Prendre le bus tout de suite",
+      "Attendre lundi pour partir"
+     ],
+     "answer": 0,
+     "words": [
+      "numéro",
+      "appeler"
+     ],
+     "sentence": 4
+    }
+   ]
+  },
+  {
+   "id": "p0064",
+   "lv": "A2",
+   "title": "Un samedi au club",
+   "oop": {},
+   "names": [
+    "Julie",
+    "Thomas"
+   ],
+   "sentences": [
+    [
+     "Julie : Salut Thomas ! Tu viens au club de sport samedi ?",
+     "Julie: Hi Thomas! Are you coming to the sports club on Saturday?"
+    ],
+    [
+     "Thomas : Je ne sais pas. J'ai un test d'anglais lundi, et je dois bien réfléchir avant de dire oui.",
+     "Thomas: I don't know. I have an English test on Monday, and I have to think carefully before saying yes."
+    ],
+    [
+     "Julie : Ce n'est pas un problème ! Le match commence à dix heures et il finit avant midi.",
+     "Julie: That's not a problem! The game starts at ten and ends before noon."
+    ],
+    [
+     "Thomas : D'accord, mais l'après-midi, je dois rester à la maison pour travailler.",
+     "Thomas: All right, but in the afternoon I have to stay home to work."
+    ],
+    [
+     "Julie : Pas de souci. Mon père peut nous emmener en voiture, et il nous ramène avant deux heures.",
+     "Julie: No worries. My father can take us by car, and he'll bring us back before two."
+    ],
+    [
+     "Thomas : Super ! Alors, c'est une bonne solution.",
+     "Thomas: Great! Then it's a good solution."
+    ],
+    [
+     "Julie : Génial ! Tu pourras aussi voir le nouveau terrain. Il est énorme !",
+     "Julie: Brilliant! You'll also be able to see the new field. It's huge!"
+    ],
+    [
+     "Thomas : Je suis content. À samedi !",
+     "Thomas: I'm happy. See you Saturday!"
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Pourquoi Thomas hésite-t-il ?",
+     "en": "Why does Thomas hesitate?",
+     "type": "mc",
+     "options": [
+      "Il est malade",
+      "Il n'aime pas le sport",
+      "Il n'a pas d'argent",
+      "Il a un test lundi"
+     ],
+     "answer": 3,
+     "words": [
+      "test"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Le match finit après midi.",
+     "en": "The game ends after noon.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "match"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Qui peut emmener les deux amis ?",
+     "en": "Who can take the two friends?",
+     "type": "mc",
+     "options": [
+      "Le père de Julie",
+      "Un voisin",
+      "Un professeur",
+      "Le frère de Thomas"
+     ],
+     "answer": 0,
+     "words": [
+      "emmener"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Thomas pense que l'idée est une bonne solution.",
+     "en": "Thomas thinks the idea is a good solution.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "solution"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Comment est le nouveau terrain ?",
+     "en": "What is the new field like?",
+     "type": "mc",
+     "options": [
+      "Très petit",
+      "Très vieux",
+      "Énorme",
+      "Très sale"
+     ],
+     "answer": 2,
+     "words": [
+      "terrain",
+      "énorme"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0065",
+   "lv": "A2",
+   "title": "Mon voyage dans le sud",
+   "oop": {},
+   "names": [
+    "Nice",
+    "Marseille"
+   ],
+   "sentences": [
+    [
+     "Lundi. Je suis arrivée à Marseille ce matin, et je suis déjà fatiguée.",
+     "Monday. I arrived in Marseille this morning, and I'm already tired."
+    ],
+    [
+     "Mon sac était trop gros, alors j'ai pris un taxi pour aller à l'hôtel.",
+     "My bag was too big, so I took a taxi to the hotel."
+    ],
+    [
+     "Mardi. J'ai marché près de la mer, et j'ai acheté une petite carte avec un bateau.",
+     "Tuesday. I walked by the sea, and I bought a little card with a boat on it."
+    ],
+    [
+     "Je l'ai envoyée à ma grand-mère : elle aime beaucoup les lettres.",
+     "I sent it to my grandmother: she loves letters."
+    ],
+    [
+     "Mercredi. Il a fait très chaud, donc j'ai passé la journée sur la plage.",
+     "Wednesday. It was very hot, so I spent the day on the beach."
+    ],
+    [
+     "Le soir, j'ai rencontré un couple sympa, et nous avons parlé de la vie dans le sud.",
+     "In the evening I met a nice couple, and we talked about life in the south."
+    ],
+    [
+     "Jeudi. Je prends le train pour Nice, où je vais rester quatre jours.",
+     "Thursday. I'm taking the train to Nice, where I'll stay four days."
+    ],
+    [
+     "Je suis contente de ce voyage, et j'ai déjà envie de revenir.",
+     "I'm happy with this trip, and I already want to come back."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Pourquoi ai-je pris un taxi ?",
+     "en": "Why did I take a taxi?",
+     "type": "mc",
+     "options": [
+      "Il faisait très froid",
+      "Son sac était trop gros",
+      "Elle était très en retard",
+      "Elle avait très faim"
+     ],
+     "answer": 1,
+     "words": [
+      "gros",
+      "taxi"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "J'ai envoyé une carte à ma grand-mère.",
+     "en": "I sent a card to my grandmother.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "lettre"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Que fait-elle mercredi ?",
+     "en": "What does she do on Wednesday?",
+     "type": "mc",
+     "options": [
+      "Elle travaille à l'hôtel",
+      "Elle prend le train",
+      "Elle voit sa grand-mère",
+      "Elle reste sur la plage"
+     ],
+     "answer": 3,
+     "words": [
+      "plage",
+      "chaud"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Elle reste quatre jours à Marseille.",
+     "en": "She stays four days in Marseille.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "rester"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0066",
+   "lv": "A2",
+   "title": "Le secret de grand-père",
+   "oop": {},
+   "names": [
+    "Paul"
+   ],
+   "sentences": [
+    [
+     "Quand j'étais petit, mon grand-père avait un grand secret.",
+     "When I was little, my grandfather had a big secret."
+    ],
+    [
+     "Chaque dimanche, il disparaissait pendant une heure dans le jardin.",
+     "Every Sunday he disappeared for an hour in the garden."
+    ],
+    [
+     "Un jour, j'ai décidé de le suivre sans faire de bruit.",
+     "One day I decided to follow him without making a sound."
+    ],
+    [
+     "Au fond du jardin, derrière les arbres, il y avait une vieille petite maison en bois.",
+     "At the back of the garden, behind the trees, there was a small old wooden house."
+    ],
+    [
+     "Mon grand-père a ouvert la porte, et je n'ai pas osé bouger.",
+     "My grandfather opened the door, and I didn't dare move."
+    ],
+    [
+     "À l'intérieur, il y avait des centaines de petites boîtes, et dans chaque boîte, une pièce.",
+     "Inside there were hundreds of small boxes, and in each box a coin."
+    ],
+    [
+     "Il m'a vu et il a ri : « Entre, Paul, je vais te montrer ma collection ! »",
+     "He saw me and laughed: \"Come in, Paul, I'll show you my collection!\""
+    ],
+    [
+     "Depuis ce jour-là, je regarde les vieilles pièces avec beaucoup d'intérêt.",
+     "Since that day I look at old coins with great interest."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Où grand-père disparaissait-il le dimanche ?",
+     "en": "Where did grandfather disappear on Sundays?",
+     "type": "mc",
+     "options": [
+      "Au marché du village",
+      "À la gare de la ville",
+      "Chez un ami voisin",
+      "Dans le jardin"
+     ],
+     "answer": 3,
+     "words": [
+      "disparaître",
+      "jardin"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "La petite maison était au fond du jardin.",
+     "en": "The small house was at the back of the garden.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "fond"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Que contenaient les petites boîtes ?",
+     "en": "What did the small boxes contain?",
+     "type": "mc",
+     "options": [
+      "Des photos",
+      "Des clés",
+      "Des pièces",
+      "Des lettres"
+     ],
+     "answer": 2,
+     "words": [
+      "intérieur",
+      "boîte"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Grand-père n'a pas ri quand il a vu Paul.",
+     "en": "Grandfather did not laugh when he saw Paul.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "rire"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Qu'est-ce que Paul regarde avec intérêt aujourd'hui ?",
+     "en": "What does Paul look at with interest today?",
+     "type": "mc",
+     "options": [
+      "Les vieilles pièces",
+      "Les vieux livres",
+      "Les vieilles cartes",
+      "Les vieilles photos"
+     ],
+     "answer": 0,
+     "words": [
+      "intérêt"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0067",
+   "lv": "A2",
+   "title": "Un vol en retard",
+   "oop": {},
+   "names": [
+    "Roissy"
+   ],
+   "sentences": [
+    [
+     "À l'aéroport, mon vol avait deux heures de retard.",
+     "At the airport my flight was two hours late."
+    ],
+    [
+     "D'abord, j'étais en colère, mais je ne pouvais rien faire.",
+     "At first I was angry, but I couldn't do anything."
+    ],
+    [
+     "J'ai donc trouvé un coin calme près d'une grande fenêtre.",
+     "So I found a quiet corner near a big window."
+    ],
+    [
+     "Un homme assis à côté de moi lisait le journal.",
+     "A man sitting next to me was reading the newspaper."
+    ],
+    [
+     "Nous avons commencé à parler, et j'ai appris qu'il était pilote.",
+     "We began to talk, and I learned that he was a pilot."
+    ],
+    [
+     "Il m'a expliqué pourquoi les avions ont parfois du retard : le temps, le vent, ou un petit problème.",
+     "He explained to me why planes are sometimes late: the weather, the wind, or a small problem."
+    ],
+    [
+     "Il m'a dit qu'il aimait son travail, mais qu'il passait trop de temps loin de sa famille.",
+     "He told me he loved his job but spent too much time away from his family."
+    ],
+    [
+     "Avec lui, le temps est passé très vite.",
+     "With him the time passed very quickly."
+    ],
+    [
+     "Quand j'ai enfin pris l'avion, j'avais presque envie de rester !",
+     "When the plane finally left, I almost wanted to stay!"
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Quel était le problème à l'aéroport ?",
+     "en": "What was the problem at the airport?",
+     "type": "mc",
+     "options": [
+      "Un sac perdu",
+      "Un billet faux",
+      "Un enfant malade",
+      "Un vol en retard"
+     ],
+     "answer": 3,
+     "words": [
+      "retard",
+      "vol"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Le coin où j'ai attendu était calme.",
+     "en": "The corner where I waited was quiet.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "coin"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Quel est le travail de l'homme ?",
+     "en": "What is the man's work?",
+     "type": "mc",
+     "options": [
+      "Médecin",
+      "Journaliste",
+      "Pilote",
+      "Professeur"
+     ],
+     "answer": 2,
+     "words": [
+      "pilote"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Le temps a passé très vite avec cet homme.",
+     "en": "Time passed very quickly with this man.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "vite"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0068",
+   "lv": "A2",
+   "title": "Mon pote au restaurant",
+   "oop": {},
+   "names": [
+    "Karim"
+   ],
+   "sentences": [
+    [
+     "Mon pote Karim travaille dans un restaurant depuis un an, et il adore son boulot.",
+     "My mate Karim has worked in a restaurant for a year, and he loves his job."
+    ],
+    [
+     "Il se lève tôt, car il doit aller au marché pour choisir les produits.",
+     "He gets up early because he has to go to the market to choose the products."
+    ],
+    [
+     "Il regarde la qualité de la viande et du poisson, et il refuse ceux qui sont vieux.",
+     "He looks at the quality of the meat and fish, and he refuses those that are old."
+    ],
+    [
+     "Ensuite, il prépare un repas différent chaque jour.",
+     "Then he prepares a different meal every day."
+    ],
+    [
+     "Il dit que le plus important, c'est d'aimer ce qu'on fait.",
+     "He says the most important thing is to love what you do."
+    ],
+    [
+     "Parfois, il rate quelque chose, mais il essaie encore.",
+     "Sometimes he gets something wrong, but he tries again."
+    ],
+    [
+     "Le soir, il est fatigué, mais il est fier quand les clients sont contents.",
+     "In the evening he is tired, but he is proud when the customers are happy."
+    ],
+    [
+     "Un jour, il rêve d'ouvrir son propre restaurant.",
+     "One day he dreams of opening his own restaurant."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Pourquoi Karim se lève-t-il tôt ?",
+     "en": "Why does Karim get up early?",
+     "type": "mc",
+     "options": [
+      "Pour aller au marché",
+      "Pour faire du sport",
+      "Pour appeler ses clients",
+      "Pour ouvrir la porte"
+     ],
+     "answer": 0,
+     "words": [
+      "produit",
+      "marché"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Karim accepte tous les produits qu'il voit.",
+     "en": "Karim accepts all the products he sees.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "refuser",
+      "qualité"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Qu'est-ce qui est le plus important pour Karim ?",
+     "en": "What is most important to Karim?",
+     "type": "mc",
+     "options": [
+      "Gagner beaucoup d'argent",
+      "Travailler plus vite que les autres",
+      "Faire son travail avec plaisir",
+      "Avoir un très grand restaurant"
+     ],
+     "answer": 2,
+     "words": [
+      "important",
+      "aimer"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Les clients contents rendent Karim fier.",
+     "en": "Happy customers make Karim proud.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "fier"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Que rêve-t-il de faire un jour ?",
+     "en": "What does he dream of doing one day?",
+     "type": "mc",
+     "options": [
+      "Partir vivre en Asie",
+      "Ouvrir son restaurant",
+      "Changer de travail",
+      "Écrire un livre sur lui"
+     ],
+     "answer": 1,
+     "words": [
+      "rêver"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0069",
+   "lv": "A2",
+   "title": "Une idée géniale",
+   "oop": {},
+   "names": [
+    "Camille"
+   ],
+   "sentences": [
+    [
+     "Camille a un problème : sa petite sœur ne veut jamais ranger sa chambre.",
+     "Camille has a problem: her little sister never wants to tidy her room."
+    ],
+    [
+     "Hier soir, elle a eu une idée géniale.",
+     "Last night she had a brilliant idea."
+    ],
+    [
+     "Elle a fait une grande carte avec des zones de couleurs différentes : le lit, les livres, les jeux.",
+     "She made a big map with zones of different colours: the bed, the books, the games."
+    ],
+    [
+     "« Chaque objet a sa place », a-t-elle dit, « et tu dois le remettre dans la bonne zone. »",
+     "\"Every object has its place,\" she said, \"and you must put it back in the right zone.\""
+    ],
+    [
+     "La petite a trouvé l'idée drôle, et elle a commencé à ranger sans rien dire.",
+     "The little one found the idea funny and began tidying without saying anything."
+    ],
+    [
+     "Après dix minutes, la chambre était propre, et la mère n'en croyait pas ses yeux.",
+     "After ten minutes the room was clean, and the mother couldn't believe her eyes."
+    ],
+    [
+     "Ce matin, il y a une nouvelle règle : un petit cadeau pour chaque zone bien rangée.",
+     "This morning there's a new rule: a small present for each well-tidied zone."
+    ],
+    [
+     "Camille espère que le système va fonctionner longtemps.",
+     "Camille hopes the system will work for a long time."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Quel est le problème de Camille ?",
+     "en": "What is Camille's problem?",
+     "type": "mc",
+     "options": [
+      "Sa sœur ne mange jamais le soir",
+      "Sa sœur est très malade depuis hier",
+      "Sa sœur ne range pas sa chambre",
+      "Sa sœur pleure souvent la nuit"
+     ],
+     "answer": 2,
+     "words": [
+      "ranger"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Camille a fait une carte avec des couleurs différentes.",
+     "en": "Camille made a map with different colours.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "couleur",
+      "zone"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Que pense la petite de l'idée ?",
+     "en": "What does the little girl think of the idea?",
+     "type": "mc",
+     "options": [
+      "Elle est triste",
+      "Elle est difficile",
+      "Elle est drôle",
+      "Elle est trop longue"
+     ],
+     "answer": 2,
+     "words": [
+      "drôle",
+      "idée"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "La chambre était encore sale après dix minutes.",
+     "en": "The room was still dirty after ten minutes.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "propre"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Qu'est-ce que la petite reçoit pour chaque zone rangée ?",
+     "en": "What does the little one get for each tidied zone?",
+     "type": "mc",
+     "options": [
+      "Un livre de plus",
+      "Un petit cadeau",
+      "Un jeu pour le soir",
+      "De l'argent pour sortir"
+     ],
+     "answer": 1,
+     "words": [
+      "règle",
+      "cadeau"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0070",
+   "lv": "A2",
+   "title": "Avis sur le café du coin",
+   "oop": {},
+   "names": [
+    "Lucie"
+   ],
+   "sentences": [
+    [
+     "Hier, j'ai essayé le nouveau café du coin, à côté de la gare.",
+     "Yesterday I tried the new café on the corner, next to the station."
+    ],
+    [
+     "Il y a de grandes fenêtres et beaucoup de lumière, et les chaises sont très bien.",
+     "There are big windows and lots of light, and the chairs are very good."
+    ],
+    [
+     "Le service est rapide : on m'a apporté mon café en deux minutes.",
+     "Service is quick: my coffee was brought to me in two minutes."
+    ],
+    [
+     "Il avait un très bon goût, et le thé était bon aussi.",
+     "It tasted very good, and the tea was good too."
+    ],
+    [
+     "Par contre, les prix sont assez élevés, et le café est un peu cher pour une étudiante.",
+     "On the other hand, the prices are rather high, and the coffee is a bit expensive for a student."
+    ],
+    [
+     "Autre problème : la musique est trop forte, donc on ne peut pas bien parler.",
+     "Another problem: the music is too loud, so you can't talk properly."
+    ],
+    [
+     "Malgré cela, je vais probablement y retourner, parce que les gens sont gentils.",
+     "Despite that, I'll probably go back, because the people are kind."
+    ],
+    [
+     "Mon avis : trois étoiles sur cinq.",
+     "My opinion: three stars out of five."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Où se trouve le café ?",
+     "en": "Where is the café?",
+     "type": "mc",
+     "options": [
+      "Près de l'école",
+      "À côté de la gare",
+      "Au bord de la mer",
+      "En face du parc"
+     ],
+     "answer": 1,
+     "words": [
+      "coin",
+      "gare"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "On m'a servi le café en vingt minutes.",
+     "en": "My coffee was served in twenty minutes.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "apporter",
+      "rapide"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Quel est le problème du café ?",
+     "en": "What is the café's problem?",
+     "type": "mc",
+     "options": [
+      "Les chaises sont très dures",
+      "Le service est vraiment long",
+      "Il n'y a pas de thé du tout",
+      "La musique est trop forte"
+     ],
+     "answer": 3,
+     "words": [
+      "problème",
+      "fort"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Lucie pense retourner dans ce café.",
+     "en": "Lucie plans to go back to this café.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "probablement"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0071",
+   "lv": "B1",
+   "title": "Travailler à la maison",
+   "oop": {},
+   "names": [
+    "Clara"
+   ],
+   "sentences": [
+    [
+     "Depuis deux ans, de plus en plus d'entreprises laissent leurs employés travailler chez eux, et cette idée plaît à beaucoup de gens.",
+     "For two years more and more companies have let their employees work from home, and many people like this idea."
+    ],
+    [
+     "Clara, qui travaille dans une agence, reste chez elle trois jours par semaine.",
+     "Clara, who works in an agency, stays at home three days a week."
+    ],
+    [
+     "Elle apprécie surtout le calme : sans collègues autour d'elle, elle arrive à se concentrer sur ses tâches.",
+     "She especially appreciates the calm: without colleagues around her, she manages to concentrate on her tasks."
+    ],
+    [
+     "Mais la communication avec l'équipe est parfois compliquée.",
+     "But communication with the team is sometimes complicated."
+    ],
+    [
+     "Quand un problème arrive, il faut envoyer un message, attendre une réponse, puis organiser une conférence en ligne.",
+     "When a problem comes up, you have to send a message, wait for an answer, then organise an online conference."
+    ],
+    [
+     "Pour garder le contact, son chef a décidé de réunir toute l'équipe au bureau chaque mardi.",
+     "To keep in touch, her boss decided to bring the whole team together at the office every Tuesday."
+    ],
+    [
+     "Ce jour-là, tout le monde déjeune ensemble et partage ses idées.",
+     "That day everyone has lunch together and shares their ideas."
+    ],
+    [
+     "Clara pense que cette méthode est efficace : elle garde sa liberté tout en restant proche de ses collègues.",
+     "Clara thinks this method is effective: she keeps her freedom while staying close to her colleagues."
+    ],
+    [
+     "Selon elle, le plus important est de ne pas rester seule trop longtemps.",
+     "According to her, the most important thing is not to stay alone for too long."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Combien de jours par semaine Clara reste-t-elle chez elle ?",
+     "en": "How many days a week does Clara stay home?",
+     "type": "mc",
+     "options": [
+      "Deux jours",
+      "Quatre jours",
+      "Trois jours",
+      "Cinq jours"
+     ],
+     "answer": 2,
+     "words": [
+      "agence",
+      "semaine"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Clara a du mal à se concentrer quand elle est seule.",
+     "en": "Clara has trouble concentrating when she is alone.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "concentrer",
+      "tâche"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Quelle est la difficulté, selon le texte ?",
+     "en": "What is the difficulty, according to the text?",
+     "type": "mc",
+     "options": [
+      "La communication avec l'équipe",
+      "Le prix des transports",
+      "Le bruit des enfants à la maison",
+      "Le manque de temps pour travailler"
+     ],
+     "answer": 0,
+     "words": [
+      "communication",
+      "compliqué"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Que se passe-t-il chaque mardi ?",
+     "en": "What happens every Tuesday?",
+     "type": "mc",
+     "options": [
+      "Toute l'équipe est au bureau",
+      "Le chef reste chez lui toute la journée",
+      "Clara part en voyage avec ses amis",
+      "Clara change de travail"
+     ],
+     "answer": 0,
+     "words": [
+      "réunir",
+      "mardi"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Clara trouve la méthode de son chef efficace.",
+     "en": "Clara finds her boss's method effective.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "méthode",
+      "efficace"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0072",
+   "lv": "B1",
+   "title": "Un voisin qui parle beaucoup",
+   "oop": {},
+   "names": [
+    "Sami",
+    "Antoine"
+   ],
+   "sentences": [
+    [
+     "Quand Antoine est arrivé dans l'appartement, il ne connaissait pas Sami, l'homme avec qui il allait vivre.",
+     "When Antoine arrived at the flat he didn't know Sami, the man he was going to live with."
+    ],
+    [
+     "Dès le premier soir, Sami a voulu tout lui raconter : sa famille, son travail, ses voyages.",
+     "From the first evening Sami wanted to tell him everything: his family, his job, his travels."
+    ],
+    [
+     "« Tu sais, j'ai passé mon enfance au bord de la mer, et je rêvais de devenir marin ! »",
+     "\"You know, I spent my childhood by the sea, and I dreamed of becoming a sailor!\""
+    ],
+    [
+     "Antoine, qui est plutôt calme, écoutait, mais il avait un peu mal à la tête.",
+     "Antoine, who is rather quiet, listened, but he had a bit of a headache."
+    ],
+    [
+     "Le lendemain, il a fini par lui dire franchement qu'il avait besoin de silence le matin.",
+     "The next day he ended up telling him frankly that he needed silence in the morning."
+    ],
+    [
+     "Sami n'a pas été en colère, au contraire : il s'est mis à rire et il a promis de se contrôler.",
+     "Sami wasn't angry, on the contrary: he started laughing and promised to control himself."
+    ],
+    [
+     "Depuis, ils ont trouvé un bon accord : le matin, chacun fait son café sans parler.",
+     "Since then they've found a good arrangement: in the morning each makes his coffee without talking."
+    ],
+    [
+     "Et le soir, ils font la cuisine ensemble, et Sami peut enfin raconter ses histoires, tandis qu'Antoine sourit.",
+     "And in the evening they cook together, and Sami can finally tell his stories while Antoine smiles."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Que voulait faire Sami le premier soir ?",
+     "en": "What did Sami want to do the first evening?",
+     "type": "mc",
+     "options": [
+      "Faire un grand repas",
+      "Voir la ville avec Antoine",
+      "Regarder un film",
+      "Tout raconter à Antoine"
+     ],
+     "answer": 3,
+     "words": [
+      "raconter"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Sami rêvait de devenir marin quand il était enfant.",
+     "en": "Sami dreamed of becoming a sailor as a child.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "enfance",
+      "marin"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Qu'a dit Antoine le lendemain ?",
+     "en": "What did Antoine say the next day?",
+     "type": "mc",
+     "options": [
+      "Qu'il voulait partir de l'appartement",
+      "Qu'il avait très faim le matin",
+      "Qu'il préférait manger tout seul",
+      "Qu'il avait besoin de calme le matin"
+     ],
+     "answer": 3,
+     "words": [
+      "franchement",
+      "silence"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Sami s'est mis en colère contre Antoine.",
+     "en": "Sami got angry with Antoine.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "colère",
+      "contraire"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Qu'est-ce qu'ils font ensemble le soir ?",
+     "en": "What do they do together in the evening?",
+     "type": "mc",
+     "options": [
+      "Ils font du sport ensemble",
+      "Ils font le ménage ensemble",
+      "Ils préparent le repas",
+      "Ils regardent la télé ensemble"
+     ],
+     "answer": 2,
+     "words": [
+      "cuisine",
+      "tandis"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0073",
+   "lv": "B1",
+   "title": "Commande en retard",
+   "oop": {},
+   "names": [
+    "Dupont"
+   ],
+   "sentences": [
+    [
+     "Madame, Monsieur,",
+     "Dear Sir or Madam,"
+    ],
+    [
+     "Le 3 octobre, j'ai passé une commande sur votre site : deux livres et un sac.",
+     "On 3 October I placed an order on your site: two books and a bag."
+    ],
+    [
+     "On m'a promis que je recevrais ma commande en quatre jours, mais je n'ai toujours rien reçu.",
+     "I was promised I would receive my order in four days, but I still haven't received anything."
+    ],
+    [
+     "J'ai essayé de contacter votre service client trois fois, et personne n'a répondu.",
+     "I tried to contact your customer service three times, and nobody answered."
+    ],
+    [
+     "Hier, j'ai enfin reçu un message, mais sans aucune explication.",
+     "Yesterday I finally received a message, but without any explanation."
+    ],
+    [
+     "Je trouve cette situation ridicule, surtout parce que j'avais besoin de ce sac pour un voyage.",
+     "I find this situation ridiculous, especially because I needed this bag for a trip."
+    ],
+    [
+     "Je vous demande donc de m'envoyer ma commande immédiatement, ou de me rendre mon argent.",
+     "I therefore ask you to send me my order immediately, or to give me my money back."
+    ],
+    [
+     "Sans réponse de votre part d'ici une semaine, je parlerai à une association.",
+     "Without a reply from you within a week, I will speak to an association."
+    ],
+    [
+     "Dans l'attente de votre réponse, je vous remercie.",
+     "Awaiting your reply, I thank you."
+    ],
+    [
+     "Pierre Dupont",
+     "Pierre Dupont"
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Qu'est-ce que M. Dupont a commandé ?",
+     "en": "What did Mr Dupont order?",
+     "type": "mc",
+     "options": [
+      "Un téléphone et un ordinateur",
+      "Deux grandes chaises en bois",
+      "Un ordinateur neuf",
+      "Deux livres et un sac"
+     ],
+     "answer": 3,
+     "words": [
+      "commande",
+      "sac"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "La commande est arrivée en quatre jours.",
+     "en": "The order arrived in four days.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "promettre",
+      "recevoir"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Combien de fois a-t-il essayé de contacter le service client ?",
+     "en": "How many times did he try to contact customer service?",
+     "type": "mc",
+     "options": [
+      "Deux fois",
+      "Trois fois",
+      "Quatre fois",
+      "Cinq fois"
+     ],
+     "answer": 1,
+     "words": [
+      "contacter",
+      "client"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Il avait besoin du sac pour un voyage.",
+     "en": "He needed the bag for a trip.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "ridicule",
+      "voyage"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Que demande-t-il à l'entreprise ?",
+     "en": "What does he ask the company?",
+     "type": "mc",
+     "options": [
+      "De lui écrire une longue lettre d'excuses",
+      "D'envoyer la commande ou l'argent",
+      "D'envoyer un autre produit gratuit",
+      "De baisser ses prix dans le magasin"
+     ],
+     "answer": 1,
+     "words": [
+      "immédiatement",
+      "argent"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0074",
+   "lv": "B1",
+   "title": "Rencontre avec une jeune pilote",
+   "oop": {},
+   "names": [
+    "Inès",
+    "Toulouse"
+   ],
+   "sentences": [
+    [
+     "Inès a vingt-six ans, et depuis l'an dernier, elle est pilote dans une petite compagnie.",
+     "Inès is twenty-six, and since last year she has been a pilot in a small airline."
+    ],
+    [
+     "Nous l'avons rencontrée à l'aéroport, juste avant un vol vers Toulouse.",
+     "We met her at the airport, just before a flight to Toulouse."
+    ],
+    [
+     "« Quand j'étais petite, je passais des heures à regarder les avions », nous a-t-elle raconté.",
+     "\"When I was little I spent hours watching planes,\" she told us."
+    ],
+    [
+     "Pour réaliser son rêve, elle a dû suivre une formation très difficile, avec beaucoup d'examens.",
+     "To achieve her dream she had to follow very difficult training, with lots of exams."
+    ],
+    [
+     "Elle admet qu'il y a des moments de peur, surtout quand le vent est fort.",
+     "She admits there are moments of fear, especially when the wind is strong."
+    ],
+    [
+     "« Mais j'ai confiance en mon équipe, et nous suivons toujours une procédure précise », dit-elle.",
+     "\"But I trust my team, and we always follow a precise procedure,\" she says."
+    ],
+    [
+     "Ce qu'elle préfère, c'est la vue : le soleil qui se lève, la mer au loin.",
+     "What she likes best is the view: the sun rising, the sea in the distance."
+    ],
+    [
+     "Quand on lui demande si elle rêve de conduire un jour un très grand avion, elle sourit.",
+     "When asked whether she dreams of one day flying a very big plane, she smiles."
+    ],
+    [
+     "« Peut-être, mais pour l'instant, je suis très heureuse de ma situation actuelle. »",
+     "\"Maybe, but for the moment I'm very happy with my current situation.\""
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Depuis quand Inès est-elle pilote dans cette compagnie ?",
+     "en": "Since when has Inès been a pilot at this airline?",
+     "type": "mc",
+     "options": [
+      "Depuis l'an dernier",
+      "Depuis dix ans environ",
+      "Depuis un mois seulement",
+      "Depuis toujours, depuis petite"
+     ],
+     "answer": 0,
+     "words": [
+      "pilote",
+      "compagnie"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Inès a suivi une formation facile.",
+     "en": "Inès had easy training.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "formation",
+      "examen"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Quand ressent-elle de la peur ?",
+     "en": "When does she feel fear?",
+     "type": "mc",
+     "options": [
+      "Quand elle est fatiguée",
+      "Quand le vent est fort",
+      "Quand elle part la nuit",
+      "Quand les gens parlent"
+     ],
+     "answer": 1,
+     "words": [
+      "peur",
+      "vent"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Elle suit toujours une procédure précise avec son équipe.",
+     "en": "She always follows a precise procedure with her team.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "procédure"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Qu'est-ce qu'elle aime le plus dans son travail ?",
+     "en": "What does she like most about her job?",
+     "type": "mc",
+     "options": [
+      "Les repas à bord",
+      "Les longues vacances",
+      "La vue depuis l'avion",
+      "Les voyages à l'étranger"
+     ],
+     "answer": 2,
+     "words": [
+      "préférer",
+      "soleil"
+     ],
+     "sentence": 6
+    }
+   ]
+  },
+  {
+   "id": "p0075",
+   "lv": "B1",
+   "title": "Une exposition près de chez nous",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "Une grande exposition de peinture ouvre samedi prochain dans le centre de notre ville.",
+     "A big painting exhibition opens next Saturday in the centre of our town."
+    ],
+    [
+     "Elle présente les œuvres d'une artiste célèbre, qui a vécu au siècle dernier.",
+     "It presents the works of a famous artist who lived in the last century."
+    ],
+    [
+     "On pourra y voir environ quarante tableaux, dont certains n'ont jamais été montrés au public.",
+     "You will be able to see about forty paintings, some of which have never been shown to the public."
+    ],
+    [
+     "L'entrée est gratuite pour les enfants de moins de douze ans.",
+     "Admission is free for children under twelve."
+    ],
+    [
+     "Les écoles pourront aussi organiser une visite avec une personne qui explique les couleurs et l'histoire de chaque œuvre.",
+     "Schools can also arrange a visit with someone who explains the colours and the story of each work."
+    ],
+    [
+     "L'objectif est simple : donner envie aux jeunes de découvrir la culture.",
+     "The aim is simple: to make young people want to discover culture."
+    ],
+    [
+     "Pour les adultes, le billet coûte huit euros, et il est possible de réserver sur le site de la ville.",
+     "For adults the ticket costs eight euros, and it is possible to book on the town's website."
+    ],
+    [
+     "L'exposition sera ouverte pendant deux mois, tous les jours sauf le lundi.",
+     "The exhibition will be open for two months, every day except Monday."
+    ],
+    [
+     "On espère accueillir plus de dix mille personnes.",
+     "They hope to welcome more than ten thousand people."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Que présente l'exposition ?",
+     "en": "What does the exhibition present?",
+     "type": "mc",
+     "options": [
+      "Les œuvres d'une artiste",
+      "Des photos de la ville ancienne",
+      "Des objets anciens du pays",
+      "Des films de cinéma célèbres"
+     ],
+     "answer": 0,
+     "words": [
+      "œuvre",
+      "artiste"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Un enfant de onze ans paie le même prix qu'un adulte.",
+     "en": "An eleven-year-old pays the same price as an adult.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "gratuit",
+      "enfant"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Comment peut-on réserver un billet ?",
+     "en": "How can you book a ticket?",
+     "type": "mc",
+     "options": [
+      "Au téléphone, le matin seulement",
+      "Par lettre envoyée au directeur",
+      "À la gare, avant la visite",
+      "Sur le site de la ville"
+     ],
+     "answer": 3,
+     "words": [
+      "billet",
+      "site"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Le but de l'exposition est de plaire aux jeunes.",
+     "en": "The aim of the exhibition is to appeal to young people.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "objectif",
+      "culture"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Quand l'exposition est-elle fermée ?",
+     "en": "When is the exhibition closed?",
+     "type": "mc",
+     "options": [
+      "Le lundi",
+      "Le dimanche",
+      "Le samedi",
+      "Le mardi"
+     ],
+     "answer": 0,
+     "words": [
+      "sauf"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0076",
+   "lv": "B1",
+   "title": "Un problème sur la route",
+   "oop": {},
+   "names": [
+    "Nadia"
+   ],
+   "sentences": [
+    [
+     "Dimanche matin, Nadia roulait sur la route de la campagne avec ses deux enfants.",
+     "On Sunday morning Nadia was driving along the country road with her two children."
+    ],
+    [
+     "Ils allaient voir leur grand-mère, qui habite à deux cents kilomètres de chez eux.",
+     "They were going to see their grandmother, who lives two hundred kilometres from them."
+    ],
+    [
+     "Mais un bruit étrange est sorti du moteur, et la voiture s'est arrêtée au bord de la route.",
+     "But a strange noise came out of the engine, and the car stopped at the side of the road."
+    ],
+    [
+     "Nadia n'a pas eu peur, mais elle était un peu inquiète, car il n'y avait personne autour d'eux.",
+     "Nadia wasn't afraid, but she was a little worried, because there was nobody around them."
+    ],
+    [
+     "Elle a essayé de réparer la voiture, sans succès.",
+     "She tried to repair the car, without success."
+    ],
+    [
+     "Les enfants, eux, trouvaient la situation plutôt drôle.",
+     "The children, for their part, found the situation rather funny."
+    ],
+    [
+     "Heureusement, un camion s'est arrêté, et l'homme a proposé son aide.",
+     "Luckily a lorry stopped, and the man offered his help."
+    ],
+    [
+     "Il a appelé un ami qui répare les voitures, et cet ami est arrivé très vite.",
+     "He called a friend who repairs cars, and this friend arrived very quickly."
+    ],
+    [
+     "Après une heure, la voiture marchait de nouveau, et la famille a pu repartir.",
+     "After an hour the car was working again, and the family was able to set off."
+    ],
+    [
+     "Arrivée chez sa grand-mère, Nadia a raconté toute l'histoire, et tout le monde a ri.",
+     "Arriving at her grandmother's, Nadia told the whole story, and everyone laughed."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Où allaient Nadia et ses enfants ?",
+     "en": "Where were Nadia and her children going?",
+     "type": "mc",
+     "options": [
+      "Au bord de la mer, en famille",
+      "À l'école de leurs cousins",
+      "Chez leur grand-mère",
+      "À la gare du village"
+     ],
+     "answer": 2,
+     "words": [
+      "kilomètre"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Le bruit venait du moteur.",
+     "en": "The noise came from the engine.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "bruit",
+      "moteur"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Qui a proposé de l'aide ?",
+     "en": "Who offered help?",
+     "type": "mc",
+     "options": [
+      "L'homme du camion",
+      "Un voisin de la route",
+      "Un policier de la ville",
+      "Un autre enfant de la voiture"
+     ],
+     "answer": 0,
+     "words": [
+      "camion",
+      "aide"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Nadia a réussi à réparer la voiture seule.",
+     "en": "Nadia managed to repair the car on her own.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "réparer",
+      "succès"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Comment les enfants trouvaient-ils la situation ?",
+     "en": "How did the children find the situation?",
+     "type": "mc",
+     "options": [
+      "Plutôt triste",
+      "Très dangereuse pour eux",
+      "Plutôt drôle",
+      "Beaucoup trop longue"
+     ],
+     "answer": 2,
+     "words": [
+      "drôle",
+      "situation"
+     ],
+     "sentence": 5
+    }
+   ]
+  },
+  {
+   "id": "p0077",
+   "lv": "B1",
+   "title": "Le club de lecture",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "Le premier jeudi de chaque mois, la bibliothèque de notre quartier organise une séance de son club de lecture.",
+     "On the first Thursday of each month our neighbourhood library holds a session of its reading club."
+    ],
+    [
+     "Environ vingt personnes viennent discuter d'un roman choisi ensemble.",
+     "Around twenty people come to discuss a novel chosen together."
+    ],
+    [
+     "Le mois dernier, le livre était une histoire d'amour qui se passe en Italie, il y a cent ans.",
+     "Last month the book was a love story set in Italy a hundred years ago."
+    ],
+    [
+     "Certains ont adoré le personnage principal, d'autres l'ont trouvé trop sérieux.",
+     "Some loved the main character, others found him too serious."
+    ],
+    [
+     "Le débat était long, mais chacun a pu exprimer son opinion.",
+     "The debate was long, but everyone was able to express their opinion."
+    ],
+    [
+     "Une dame a même suggéré une autre fin, et tout le monde a ri.",
+     "One lady even suggested a different ending, and everyone laughed."
+    ],
+    [
+     "À la fin de la séance, on choisit le livre du mois suivant, et chacun peut proposer un titre.",
+     "At the end of the session the next month's book is chosen, and everyone can suggest a title."
+    ],
+    [
+     "Ce club n'est pas réservé à ceux qui lisent beaucoup : il suffit d'aimer les histoires et d'avoir envie d'échanger.",
+     "This club is not only for those who read a lot: you just need to like stories and want to exchange ideas."
+    ],
+    [
+     "L'entrée est libre, et on peut même venir sans avoir lu le livre.",
+     "Entry is free, and you can even come without having read the book."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Quand a lieu le club de lecture ?",
+     "en": "When does the reading club meet?",
+     "type": "mc",
+     "options": [
+      "Chaque jeudi de chaque semaine",
+      "Le dernier jeudi de chaque mois",
+      "Tous les deux mois, le mardi",
+      "Le premier jeudi de chaque mois"
+     ],
+     "answer": 3,
+     "words": [
+      "séance",
+      "mois"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Le livre du mois dernier se passait en France.",
+     "en": "Last month's book was set in France.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "histoire"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Que pensent certains du personnage principal ?",
+     "en": "What do some readers think of the main character?",
+     "type": "mc",
+     "options": [
+      "Il est trop pauvre",
+      "Il est trop drôle pour eux",
+      "Il est trop jeune pour elle",
+      "Il est trop sérieux"
+     ],
+     "answer": 3,
+     "words": [
+      "personnage",
+      "sérieux"
+     ],
+     "sentence": 3
+    },
+    {
+     "q": "Chacun peut donner son opinion pendant le débat.",
+     "en": "Everyone can give their opinion during the debate.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "débat",
+      "exprimer"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Que doit-on avoir pour venir au club ?",
+     "en": "What do you need in order to come to the club?",
+     "type": "mc",
+     "options": [
+      "Avoir lu le livre",
+      "Avoir envie d'échanger",
+      "Avoir un billet",
+      "Avoir beaucoup de temps"
+     ],
+     "answer": 1,
+     "words": [
+      "échanger",
+      "histoire"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0078",
+   "lv": "B1",
+   "title": "Mon premier festival",
+   "oop": {},
+   "names": [
+    "Lucas"
+   ],
+   "sentences": [
+    [
+     "L'été dernier, j'ai passé trois jours dans un festival de musique avec mes camarades de classe.",
+     "Last summer I spent three days at a music festival with my classmates."
+    ],
+    [
+     "Nous avions des billets pas chers et nous dormions dans un grand champ.",
+     "We had cheap tickets and we slept in a big field."
+    ],
+    [
+     "Le premier soir, une foule énorme attendait devant la scène principale.",
+     "On the first evening a huge crowd was waiting in front of the main stage."
+    ],
+    [
+     "Le groupe a commencé à jouer, et tout le monde s'est mis à chanter.",
+     "The band started to play, and everyone began to sing."
+    ],
+    [
+     "Le rythme était si fort que je sentais la musique dans mes pieds.",
+     "The rhythm was so strong that I felt the music in my feet."
+    ],
+    [
+     "Mon ami Lucas a filmé presque tout le concert avec son téléphone.",
+     "My friend Lucas filmed almost the whole concert with his phone."
+    ],
+    [
+     "Le deuxième jour, il a plu, et nous avons dû courir pour sauver nos sacs.",
+     "On the second day it rained, and we had to run to save our bags."
+    ],
+    [
+     "Nous étions fatigués et sales, mais personne ne voulait partir.",
+     "We were tired and dirty, but nobody wanted to leave."
+    ],
+    [
+     "Le dernier soir, un groupe célèbre a joué ses plus belles chansons, et la foule l'a suivi avec joie.",
+     "On the last evening a famous band played his best songs, and the crowd followed him with joy."
+    ],
+    [
+     "Je ne suis pas près d'oublier ces trois jours.",
+     "I'm not about to forget those three days."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Avec qui suis-je allé au festival ?",
+     "en": "Who did I go to the festival with?",
+     "type": "mc",
+     "options": [
+      "Avec mes camarades",
+      "Avec ma famille",
+      "Avec mon chef de travail",
+      "Avec mes voisins de rue"
+     ],
+     "answer": 0,
+     "words": [
+      "camarade",
+      "festival"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Les billets étaient très chers.",
+     "en": "The tickets were very expensive.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "billet",
+      "cher"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Qu'a fait Lucas pendant le concert ?",
+     "en": "What did Lucas do during the concert?",
+     "type": "mc",
+     "options": [
+      "Il a filmé",
+      "Il a dormi",
+      "Il a chanté seul",
+      "Il a couru"
+     ],
+     "answer": 0,
+     "words": [
+      "filmer",
+      "concert"
+     ],
+     "sentence": 5
+    },
+    {
+     "q": "Il a plu le deuxième jour.",
+     "en": "It rained on the second day.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "pleuvoir",
+      "sac"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Qui a joué le dernier soir ?",
+     "en": "Who played on the last evening?",
+     "type": "mc",
+     "options": [
+      "Un jeune groupe inconnu",
+      "Un groupe célèbre",
+      "Un petit groupe de la ville",
+      "Mes amis de classe"
+     ],
+     "answer": 1,
+     "words": [
+      "groupe",
+      "célèbre"
+     ],
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "p0079",
+   "lv": "B1",
+   "title": "La légende du loup",
+   "oop": {},
+   "names": [],
+   "sentences": [
+    [
+     "Quand j'étais enfant, ma grand-mère me racontait chaque hiver la légende du loup de la forêt.",
+     "When I was a child my grandmother told me every winter the legend of the wolf of the forest."
+    ],
+    [
+     "Selon cette histoire, il y a très longtemps, un village vivait au bord d'une grande forêt.",
+     "According to this story, a very long time ago, a village lived at the edge of a big forest."
+    ],
+    [
+     "Un hiver, la neige est tombée pendant plusieurs semaines, et les habitants n'avaient presque plus de nourriture.",
+     "One winter the snow fell for several weeks, and the inhabitants had almost no food left."
+    ],
+    [
+     "Un soir, un loup est sorti de la forêt, très fatigué.",
+     "One evening a wolf came out of the forest, very tired."
+    ],
+    [
+     "Les gens avaient peur, mais une petite fille lui a donné un morceau de pain.",
+     "People were afraid, but a little girl gave him a piece of bread."
+    ],
+    [
+     "Le loup l'a regardée, puis il est reparti sans rien faire.",
+     "The wolf looked at her, then went away without doing anything."
+    ],
+    [
+     "Le lendemain, il est revenu avec un animal qu'il avait attrapé, et il l'a laissé devant la porte de la petite fille.",
+     "The next day he came back with an animal he had caught, and he left it in front of the little girl's door."
+    ],
+    [
+     "Depuis ce jour, dit la légende, les gens du village partagent leur nourriture avec tous ceux qui ont faim.",
+     "Since that day, says the legend, the villagers share their food with everyone who is hungry."
+    ],
+    [
+     "Ma grand-mère disait toujours que cette tradition vient du passé et qu'il faut la garder pour les générations futures.",
+     "My grandmother always said this tradition comes from the past and must be kept for future generations."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Quand la grand-mère racontait-elle la légende ?",
+     "en": "When did the grandmother tell the legend?",
+     "type": "mc",
+     "options": [
+      "Chaque dimanche",
+      "Chaque été",
+      "Chaque hiver",
+      "Chaque soir"
+     ],
+     "answer": 2,
+     "words": [
+      "légende",
+      "hiver"
+     ],
+     "sentence": 0
+    },
+    {
+     "q": "Il y avait beaucoup de nourriture au village.",
+     "en": "There was plenty of food in the village.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "neige",
+      "nourriture"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Que lui a donné la petite fille ?",
+     "en": "What did the little girl give him?",
+     "type": "mc",
+     "options": [
+      "Un peu d'eau chaude",
+      "Un morceau de pain",
+      "Un peu de viande froide",
+      "Une pomme rouge"
+     ],
+     "answer": 1,
+     "words": [
+      "peur",
+      "pain"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "Le loup est revenu le lendemain avec un animal.",
+     "en": "The wolf came back the next day with an animal.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "lendemain",
+      "attraper"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Que font les gens du village depuis ce jour ?",
+     "en": "What have the village people done since that day?",
+     "type": "mc",
+     "options": [
+      "Ils partent en voyage",
+      "Ils ferment toutes leurs portes",
+      "Ils partagent leur nourriture",
+      "Ils chassent tous les loups"
+     ],
+     "answer": 2,
+     "words": [
+      "partager",
+      "nourriture"
+     ],
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "p0080",
+   "lv": "B1",
+   "title": "Un entretien pour un nouvel emploi",
+   "oop": {},
+   "names": [
+    "Léa"
+   ],
+   "sentences": [
+    [
+     "Hier, Léa a passé un entretien pour un nouvel emploi dans une grande entreprise.",
+     "Yesterday Léa had an interview for a new job at a big company."
+    ],
+    [
+     "Elle était très inquiète, car elle n'avait jamais travaillé dans un bureau.",
+     "She was very worried, because she had never worked in an office."
+    ],
+    [
+     "Le chef de l'équipe lui a d'abord demandé de parler de son expérience.",
+     "The team leader first asked her to talk about her experience."
+    ],
+    [
+     "« Quelles sont vos qualités ? » a-t-il demandé. « Et quel est votre principal défaut ? »",
+     "\"What are your qualities?\" he asked. \"And what is your main fault?\""
+    ],
+    [
+     "Léa a répondu franchement : « Je suis sérieuse et patiente, mais je suis parfois trop curieuse. »",
+     "Léa answered frankly: \"I am serious and patient, but I am sometimes too curious.\""
+    ],
+    [
+     "Il a ri, puis il a expliqué les tâches qu'elle devrait faire : répondre au téléphone, organiser les rendez-vous, aider l'équipe.",
+     "He laughed, then explained the tasks she would have to do: answer the phone, organise the appointments, help the team."
+    ],
+    [
+     "À la fin, il lui a proposé un essai de trois mois, avec un salaire normal.",
+     "At the end he offered her a three-month trial, with a decent salary."
+    ],
+    [
+     "Léa n'a pas voulu donner de réponse tout de suite, car elle voulait réfléchir.",
+     "Léa didn't want to give an answer right away, because she wanted to think."
+    ],
+    [
+     "Ce matin, elle a appelé pour dire oui, et il lui a dit : « Félicitations ! »",
+     "This morning she called to say yes, and he said to her: \"Congratulations!\""
+    ],
+    [
+     "Elle commence lundi prochain.",
+     "She starts next Monday."
+    ]
+   ],
+   "questions": [
+    {
+     "q": "Pourquoi Léa était-elle inquiète ?",
+     "en": "Why was Léa worried?",
+     "type": "mc",
+     "options": [
+      "Elle était en retard à son rendez-vous",
+      "Elle n'avait jamais travaillé dans un bureau",
+      "Elle ne connaissait pas du tout cette ville",
+      "Elle avait perdu son téléphone dans le train"
+     ],
+     "answer": 1,
+     "words": [
+      "inquiet",
+      "bureau"
+     ],
+     "sentence": 1
+    },
+    {
+     "q": "Le chef voulait connaître l'expérience de Léa.",
+     "en": "The leader wanted to know about Léa's experience.",
+     "type": "tf",
+     "options": null,
+     "answer": true,
+     "words": [
+      "expérience",
+      "chef"
+     ],
+     "sentence": 2
+    },
+    {
+     "q": "Quel défaut Léa a-t-elle cité ?",
+     "en": "What fault did Léa mention?",
+     "type": "mc",
+     "options": [
+      "Elle est trop jeune pour ce travail",
+      "Elle est parfois trop curieuse",
+      "Elle est trop fatiguée le matin",
+      "Elle parle trop avec les clients"
+     ],
+     "answer": 1,
+     "words": [
+      "curieux"
+     ],
+     "sentence": 4
+    },
+    {
+     "q": "L'essai que Léa a reçu dure six mois.",
+     "en": "The trial Léa was offered lasts six months.",
+     "type": "tf",
+     "options": null,
+     "answer": false,
+     "words": [
+      "essai",
+      "salaire"
+     ],
+     "sentence": 6
+    },
+    {
+     "q": "Que fait Léa ce matin ?",
+     "en": "What does Léa do this morning?",
+     "type": "mc",
+     "options": [
+      "Elle cherche un autre emploi",
+      "Elle écrit une lettre",
+      "Elle va au bureau",
+      "Elle appelle pour dire oui"
+     ],
+     "answer": 3,
+     "words": [
+      "appeler"
+     ],
+     "sentence": 8
+    }
+   ]
   }
  ]
 }
