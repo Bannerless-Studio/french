@@ -104,7 +104,7 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 984, 'verb': 502, 'adj'
   42 par [prep] by
   43 bien [adv] well
   44 devoir [verb] must, to have to
-  45 y [pron] there; to it
+  45 y [pron] there (to it)
   46 voir [verb] to see; se voir: to see each other; to be seen
   47 tout [adj] all, every; whole
   48 savoir [verb] to know (a fact), to know how to
@@ -126,10 +126,10 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 984, 'verb': 502, 'adj'
   64 tout [adv] quite, completely
   65 très [adv] very
   66 deux [num] two
-  67 là [adv] there
+  67 là [adv] there (place)
   68 ou [conj] or
   69 ici [adv] here
-  70 alors [adv] then; so
+  70 alors [adv] then, so
   71 passer [verb] to pass; to spend (time); se passer: to happen
   72 rien [pron] nothing
   73 est-ce que [phrase] question marker (is it that ...?)
