@@ -46,6 +46,7 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 984, 'verb': 502, 'adj'
 ## Sentences
 
 - Final sentences: **3,277**, 437 with audio (`https://tatoeba.org/audio/download/<audio_id>`).
+- Sentence ids (`tools/sentence_ids_v1.json`): 3,277 kept, 0 new, 0 retired.
 - Word coverage: 0 = 0, 1 = 3, 2 = 1997.
 - Candidate sentences (terminal punctuation, 3-14 tokens, content lemmas in pack/top-3000, >=1 link): 258,361. Rejected for a content lemma outside pack/top-3000: 92,823.
 - Passé simple: 15,610 candidates contain one; 15,598 were blocked for A1/A2 words; 158 in the final set (all lv B1).
@@ -68,22 +69,22 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 984, 'verb': 502, 'adj'
    7 à [prep] to, at, in
    8 que [conj] that; than
    9 et [conj] and
-  10 pas [adv] not (ne ... pas)
+  10 pas [adv] not (after the verb: ne ... pas)
   11 ce [pron] it, this, that
-  12 ne [adv] not (ne ... pas)
+  12 ne [adv] not (before the verb: ne ... pas)
   13 en [prep] in, to; by
   14 il [pron] he, it
   15 pour [prep] for
   16 faire [verb] to do, to make; se faire: to get (done)
-  17 tu [pron] you
-  18 vous [pron] you
+  17 tu [pron] you (informal)
+  18 vous [pron] you (polite, or several people)
   19 on [pron] one, we, people
   20 ce [det] this, that (ce, cet, cette, ces)
   21 qui [pron] who; which, that
-  22 ça [pron] that, it
+  22 ça [pron] that, it (informal)
   23 dans [prep] in, within
   24 le [pron] him, her, it
-  25 me [pron] me
+  25 me [pron] me (object)
   26 se [pron] oneself, himself, herself, themselves
   27 aller [verb] to go; s'en aller: to go away
   28 pouvoir [verb] can, to be able to
@@ -92,7 +93,7 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 984, 'verb': 502, 'adj'
   31 mais [conj] but, although
   32 avec [prep] with
   33 dire [verb] to say, to tell; se dire: to say to oneself
-  34 te [pron] you
+  34 te [pron] you (object, informal)
   35 sur [prep] on, upon
   36 elle [pron] she
   37 plus [adv] more; no more (ne ... plus)
@@ -108,9 +109,9 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 984, 'verb': 502, 'adj'
   47 tout [adj] all, every; whole
   48 savoir [verb] to know (a fact), to know how to
   49 en [pron] of it, of them; from there
-  50 ils [pron] they
+  50 ils [pron] they (men, or a mixed group)
   51 où [adv] where
-  52 moi [pron] me
+  52 moi [pron] me (stressed)
   53 ton [det] your
   54 comme [prep] like, as; how
   55 bon [adj] good
@@ -131,9 +132,9 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 984, 'verb': 502, 'adj'
   70 alors [adv] then; so
   71 passer [verb] to pass; to spend (time); se passer: to happen
   72 rien [pron] nothing
-  73 est-ce que [phrase] (question marker: is it that ...?)
+  73 est-ce que [phrase] question marker (is it that ...?)
   74 parler [verb] to speak, to talk
-  75 toi [pron] you
+  75 toi [pron] you (stressed, informal)
   76 leur [det] their
   77 trouver [verb] to find; se trouver: to be (located)
   78 falloir [verb] to be necessary (il faut: one must)
@@ -142,7 +143,7 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 984, 'verb': 502, 'adj'
   81 encore [adv] still; again
   82 le temps [noun] time; weather
   83 sans [prep] without
-  84 aimer [verb] to like
+  84 aimer [verb] to like, to love
   85 petit [adj] small
   86 mettre [verb] to put; se mettre: to start (se mettre à)
   87 après [prep] after
